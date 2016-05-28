@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>TldrHub: News in a New Way</title>
+		<meta name="description" content="Thumbnail Grid with Expanding Preview" />
+		<meta name="keywords" content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" />
+		<meta name="author" content="Codrops" />
+		
+		<link rel="shortcut icon" href="images/favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Neuton:400,400italic,700' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		
+		<script>
+		$(window).scroll(function() {
+		  if ($(document).scrollTop() > 50) {
+			$('nav').addClass('shrink');
+		  } else {
+			$('nav').removeClass('shrink');
+		  }
+		});
+		</script>
+	</head>
+	<body>
+		<div>		
+			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container">
+				<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				  <a class="navbar-brand" href="#"><img src="images/site/tldrhub-inverse.png" /></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">Recent <span class="sr-only">(current)</span></a></li>
+					<li><a href="politics">Politics</a></li>
+					<li><a href="finance">Finance</a></li>
+					<li><a href="tech">Tech</a></li>
+					<li><a href="social">Social</a></li>
+					<li><a><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+				  </ul>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+			
+			<section class="top-story">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<a href="politics/nmorse/2016-05-22-trump.html">
+								<img src="images/top-stories/trump.jpg" class="img-responsive" />
+							</a>
+							<p class="caption">Donald Trump raises his arm to demonstrate fellatio. <span class="caption-source">Getty Images</span></p>
+						</div>
+						<div class="col-md-6">
+							<h3><a href="TldrHub/politics/nmorse/2016-05-22-trump.html">Breaking: Scientists upgrade Trump from Asshole to Superasshole</a></h3>
+							<h5>May 22, 2016 - by <span class="author">Nathan Morse</span></h5>
+							<p><span class="city">Washington, DC &mdash;</span> The American Political Science Association (APSA) commenced its annual convention yesterday, and experts voted earlier this morning to upgrade Donald J. Trump from “Asshole” status to “Superasshole” status. The APSA has scales on which it ranks each major political figure based on political ideology, success, and character, as determined by a majority vote of the members present at the convention. The “character” scale ranges from “Sweet Old Man” to “Superasshole.” Trump is now the first political figure in APSA history to receive a status of “Superasshole.” Senator Bernie Sanders is the currently the only politician with “Sweet Old Man” status.</p>
+							<p class="top-story-read"><a href="politics/nmorse/2016-05-22-trump.html">Read Article</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="main">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+							
+							<div class="row">
+								<div class="col-md-3">
+									<a href="politics/nmorse/2016-05-22-clinton.html">
+										<img src="images/thumbs/hillary.jpg" class="img-responsive" />
+									</a>
+								</div>
+								<div class="col-md-9">
+									<div class="post-thumb">
+										<h4><a href="politics/nmorse/2016-05-22-clinton.html">Clinton “pretty sure” her vagina is nicer than Monica Lewinsky’s</a></h4>
+										<h5>May 22, 2016 - by Nathan Morse</h5>
+										<p>While addressing a crowd on a campaign speech last Tuesday, Hillary Clinton referenced Monica Lewinsky, the infamous White House intern who had an affair with Bill Clinton while he was president. <span class="post-thumb-read"><a data-toggle="collapse" data-target="#clinton">Read tldr</a></span></p>
+										<p id="clinton" class="collapse">Mrs. Clinton was attempting to explain that she’s loyal to America even when the nation makes mistakes, just as she was loyal to her husband. “But you know what?” she said after apparently accidentally mentioning Lewinsky. “I'm pretty sure I’ve got a nicer clit than she does.” The audience cheered for three minutes straight. Both Mr. Clinton and Donald Trump released statements confirming Mrs. Clinton’s assertion.</p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row"><div class="col-md-12"><hr /></div></div>
+							
+							<div class="row">
+								<div class="col-md-3">
+									<a href="#"><img src="images/thumbs/carson.jpg" class="img-responsive" /></a>
+								</div>
+								<div class="col-md-9">
+									<div class="post-thumb">
+										<h4><a href="#">Carson announces he will try his luck at rapping since politics isn’t working out</a></h4>
+										<h5>May 22, 2016 - by Nathan Morse</h5>
+										<p>Retired neurosurgeon and former presidential candidate Ben Carson held a press conference earlier today to deny claims that he’s a zombie, but the subject quickly changed when a reporter asked about his career future. <span class="post-thumb-read"><a data-toggle="collapse" data-target="#carson">Read tldr</a></span></p>
+										<p id="carson" class="collapse">Carson announced that he will not be seeking any more political positions, but he may try his luck at becoming a rapper. “I mean, I’m black, right?” he told the reporters. “And in my line of work, I’ve dealt with a lot of drugs, death, and naked people, which is all rap is about.” Carson does not know yet when he will release an album.</p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row"><div class="col-md-12"><hr /></div></div>
+							
+							<div class="row">
+								<div class="col-md-3">
+									<a href="#"><img src="images/thumbs/tally.png" class="img-responsive" /></a>
+								</div>
+								<div class="col-md-9">
+									<div class="post-thumb">
+										<h4><a href="#">Tallahassee Woman to Star in New Reality Show Called “Tally-Hoe”</a></h4>
+										<h5>May 22, 2016 - by Nathan Morse</h5>
+										<p>TLC will launch a new reality show in the fall called “Tally-Hoe,” which follows La-a (pronounced la-dash-a) Smith, a Tallahassee woman, through her struggles with all seven of her baby daddies, three of her step-fathers ... <span class="post-thumb-read"><a data-toggle="collapse" data-target="#tally">Read tldr</a></span></p>
+										<p id="tally" class="collapse">and multiple ex-bosses. The title of the show references her Tallahassee heritage and her prostitution habits, and is a play on the term “tally-ho,” which indicates a target, since she is often the target of police raids and drug busts. TLC has made a deal with Smith’s lawyers to pay her in weed and birth control pills rather than money for starring on the show.</p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="row"><div class="col-md-12"><hr /></div></div>
+							
+							<div class="row">
+								<div class="col-md-3">
+									<a href="#"><img src="images/thumbs/hipster.jpg" class="img-responsive" /></a>
+								</div>
+								<div class="col-md-9">
+									<div class="post-thumb">
+										<h4><a href="#">Local Man Claims He’s Not A Hipster, But He Clearly Is</a></h4>
+										<h5>May 22, 2016 - by Nathan Morse</h5>
+										<p>Roman Stihl, a 22-year-old art major, has released a statement asserting that he is “clearly too mainstream” to be a hipster. The statement cites many reasons, including his occasional tendency to listen to Justin Bieber ... <span class="post-thumb-read"><a data-toggle="collapse" data-target="#hipster">Read tldr</a></span></p>
+										<p id="hipster" class="collapse">rather than his usual Indie rock bands, the tameness of his beard, and his large penis size, all of which he says mean he’s not a hipster. Former classmates of his have already started a petition asking the government to recognize him as a hipster, since “just a few mainstream qualities don’t make a person overall mainstream.” Stihl has declined to comment further.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-3">
+									<a href="#"><img src="images/thumbs/apple-icon-apple.jpg" class="img-responsive" /></a>
+								</div>
+								<div class="col-md-9">
+									<div class="post-thumb">
+										<h4><a href="#">Why Apple Inc Stock is a GREAT Buy</a></h4>
+										<h5>May 27, 2016 - by Aditya Srivastava</h5>
+										<p>Apple may not have met its target for Quarter 1 of 2016, but I suggest to go long on Apple Inc., which closed at $100.35 today, because of its future in India's smartphone market, which if approved my Modi will see Apple increase revenues substantially.
+									
+									</div>
+								</div>
+							</div>
+							
+							<div class="row"><div class="col-md-12"><hr style="margin-bottom: 10px;" /></div></div>
+							
+							<div class="row bottom-nav">
+								<div class="col-md-6">
+	
+								</div>
+								<div class="col-md-6 bottom-nav-next">
+									<a href="#">Previous &raquo;
+								</div>
+							</div>
+							
+						</div>
+						<div class="col-md-3">
+							<div class="ad" style="margin-top: 0;">Advertisement</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<footer>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<p style="float: left;">&copy; Copyright 2016 by TldrHub, LLC.</p>
+						</div>
+						<div class="col-md-6">
+							<ul class="list-inline">
+								<li><a href="">Home</a></li>
+								<li><a href="about">About</a></li>
+								<li><a href="blog">Blog</a></li>
+								<li><a href="write">Write for us</a></li>
+								<li><a href="contact">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div><!-- /container -->
+	</body>
+</html>
