@@ -2359,5 +2359,12 @@ if (typeof jQuery === 'undefined') {
       Plugin.call($spy, data)
     })
   })
+  
+  $("#search-button").click(function(){
+    $("#search").hide(500);
+});
 
 }(jQuery);
+
+
+

@@ -19,8 +19,7 @@
 		<link rel="stylesheet" type="text/css" href="../../css/custom.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="../../bootstrap/js/bootstrap.min.js"></script>
-
-		<script src="//load.sumome.com/" data-sumo-site-id="83841203ecf4222aa395d9b2feaf21620bdac3cbf33f9118ff34c4fbba8c30e6" async="async"></script>
+		<script src="../../js/script.js"></script>
 
 	</head>
 	<body>
@@ -34,17 +33,18 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				  <a class="navbar-brand" href="../../index.html"><img src="../../images/site/tldrhub-Finance.png" height="30px" /></a>
+				  <a class="navbar-brand" href="http://www.tldrhub.com"><div class="logo-img logo-finance"><img src="../../images/site/tldrhub-finance.png" class="img-responsive" /></div></a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav navbar-right">
 					<li><a href="../../">Recent <span class="sr-only">(current)</span></a></li>
-					<li><a href="politics">Politics</a></li>
+					<li><a href="../../politics">Politics</a></li>
 					<li class="active"><a href="../../finance">Finance</a></li>
 					<li><a href="../../tech">Tech</a></li>
 					<li><a href="../../social">Social</a></li>
-					<li><a><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+					<form class="navbar-left" id="search" role="search"><input type="text" class="search-bar" placeholder="Search"></form>
+					<li><a class="search-button"><span class="glyphicon glyphicon-search search-icon" aria-hidden="true"></span></a></li>
 				  </ul>
 				</div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
@@ -60,7 +60,7 @@
 					
 					<div class="row">
 						<div class="col-md-7">
-						<img src="../apple-icon-apple.jpg" class="img-responsive" />
+							<img src="../apple-icon-apple.jpg" class="img-responsive" />
 							<p class="caption">Apple's Motto: Think Different  <span class="caption-source">Getty Images</span></p>
 						</div>
 						
@@ -127,5 +127,6 @@
 				</div>
 			</footer>
 		</div><!-- /container -->
+		<script id="dsq-count-scr" src="//tldrhub.disqus.com/count.js" async></script>
 	</body>
 </html>

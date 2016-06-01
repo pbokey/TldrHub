@@ -16,6 +16,10 @@ html { height: 100%; }
 .left {float: left;}
 .right {float: right;}
 
+@media (max-width: 767px) {
+	.right {float: left;}
+}
+
 
 body {
     font-family: 'Work Sans', Calibri, Arial, sans-serif;
@@ -28,12 +32,16 @@ body {
 }
 
 p {font-family: "Neuton"; font-size: 1.1em; font-weight: 400; line-height: 1.3em;}
+.big-text p {font-size: 1.2em; margin-bottom: 10px;}
+.big-text h4 {color: #777;}
 
 .city {opacity: .6; text-transform: uppercase; font-family: "Work Sans"; font-weight: 400;}
 .author {text-transform: uppercase;}
 .top-story-read {font-family: "Work Sans"; font-weight: bold; padding-top: 5px;}
 .caption {font-family: "Work Sans"; color: #777; letter-spacing: -.5px; line-height: 1.1em; font-size: 1em;}
 .caption-source {text-transform: uppercase; font-weight: bold; color: #aaa;}
+
+h2 {letter-spacing: -2px;}
 
 a {
 	color: #2888A8;
@@ -55,34 +63,116 @@ a:hover {
 	margin-top: -20px;
 }
 
-.navbar-brand, .navbar-nav img {
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-}
-
 .shrink .navbar-nav > li > a {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
 
-.navbar-brand img {
-	height: 50px;
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
+@media (min-width: 768px) {
+	.logo-img {
+		width: 145px;
+		-webkit-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
+
+	.shrink .logo-img {width: 95px;}
+	.logo-politics, .logo-finance {width: 200px;}
+	.shrink .logo-politics, .shrink .logo-finance {width: 130px;}
 }
 
-.shrink .navbar-brand img {
-	-webkit-transition: all 0.4s ease;
-	transition: all 0.4s ease;
-	transform: scale(0.7) translate(-25px,-10px);
+@media (max-width: 767px) {
+	.logo-img {width: 95px;}
+	.logo-politics, .logo-finance {width: 130px;}
+	.col-md-3 a img {margin-bottom: 10px;}
 }
 
+.search-bar {
+  display: inline;
+  width: 0;
+  height: 34px;
+  margin-top: 20px;
+  margin-right: 2px;
+  padding: 6px 0px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: white;
+  background-color: rgba(255,255,255,.2);
+  background-image: none;
+  border: 0;
+  -webkit-transition: all ease-in-out .3s;
+       -o-transition: all ease-in-out .3s;
+          transition: all ease-in-out .3s;
+}
 
+.search-bar.search-on {
+  display: inline;
+  width: 150px;
+  height: 34px;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 10px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: white;
+  background-color: rgba(255,255,255,.2);
+  background-image: none;
+  border: 0;
+  -webkit-transition: all ease-in-out .3s;
+       -o-transition: all ease-in-out .3s;
+          transition: all ease-in-out .3s;
+  border-radius-top-left: 4px;
+  border-radius-bottom-left: 4px;
+}
 
+.search-button {
+	cursor: pointer;
+
+}
+
+.search-button {
+  -webkit-transition: all ease-in-out .3s;
+       -o-transition: all ease-in-out .3s;
+          transition: all ease-in-out .3s;
+}
+
+.search-button.search-on {
+	margin: 20px 0 16px 0;
+	padding: 7px 10px;
+}
+
+.shrink .search-button.search-on {
+	margin: 8px 0 5px 0;
+	padding: 7px 10px;
+}
+
+.shrink .search-bar {margin-top: 8px;}
+.shrink .search-bar.search-on {margin-top: 8px;}
+
+.search-icon {
+  -webkit-transition: all ease-in-out .3s;
+       -o-transition: all ease-in-out .3s;
+          transition: all ease-in-out .3s;
+}
+.search-bar.search-on:focus {
+  border-color: #66afe9;
+  background-color: rgba(255,255,255,.3);
+  outline: 0;
+}
+.search-bar.search-on::-moz-placeholder {
+  color: rgba(255,255,255,.7);
+  opacity: 1;
+}
+.search-bar.search-on:-ms-input-placeholder {
+  color: rgba(255,255,255,.7);
+}
+.search-bar.search-on::-webkit-input-placeholder {
+  color: rgba(255,255,255,.7);
+}
 
 .top-story {
 	padding-top: 90px;
-	background: #f8f8f8 url(../images/site/bg-2.png);
+	background: #dfdfdf url(../images/site/bg-2.png);
 	padding-bottom: 25px;
 }
 
@@ -111,6 +201,24 @@ a:hover {
 	font-family: "Work Sans";
 	color: #888;
 	margin-bottom: 17px;
+}
+
+.banner {
+	background: url(../images/site/banner.png);
+	padding: 127px 0;
+	text-align: center;
+}
+
+.banner h2 {
+	font-size: 40px;
+	line-height: 40px;
+	color: white;
+	text-shadow: 0 0 10px black;
+	letter-spacing: -1px;
+	font-weight: 300;
+	padding: 10px;
+	margin: 0 auto;
+	background: rgba(0,0,0,.5)
 }
 
 .hr1 {
@@ -143,19 +251,73 @@ a:hover {
 	line-height: 1.1em;
 }
 
+.sidebar p {
+	font-family: "Work Sans";
+	color: #555;
+}
+
+.sidebar h5 {
+	font-weight: bold;
+	color: #777;
+}
+
+.sidebar li {
+	list-style-type: none;
+	padding-bottom: 7px;
+	border-bottom: 1px dotted #aaa;
+	margin-bottom: 5px;
+	font-weight: 400;
+	letter-spacing: -.5px;
+}
+
+.sidebar li a {
+	color: #555;
+}
+
+.post-row {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+
+.post-row:hover {
+	background: rgba(255,255,255,.75);
+	box-shadow: 0 0 5px rgba(0,0,0,.25);
+}
+
 .post-thumb h4 {
 	padding-top: 0;
+	font-weight: 400;
+	font-family: Neuton;
+	font-size: 1.6em;
 }
 
 .post-thumb h4 a {
 	color: #333;
-	
+}
+
+.post-thumb li {
+	font-weight: 600;
+	font-family: "Work Sans";
+	color: #888;
+}
+
+.post-thumb li a {
+	color: #888;
+	text-transform: uppercase;
+}
+
+.post-thumb p a {
+	font-weight: bold;
 }
 
 .post-thumb-read {
 	font-weight: bold;
 	cursor: pointer;
 }
+
+.hr3 {margin: 5px 0;}
+.hr4 {margin: 5px 0 10px 0;}
 
 .bottom-nav {
 	color: #aaa;
@@ -175,8 +337,8 @@ a:hover {
 footer {
 	padding: 40px 0 60px 0;
 	height: 50px;
-	background: #f8f8f8 url(../images/site/bg-2.png);
-	border-top: 1px solid #ddd;
+	background: #dfdfdf url(../images/site/bg-2.png);
+	border-top: 1px solid #ccc;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.1);
 }
 

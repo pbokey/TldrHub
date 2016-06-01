@@ -24,13 +24,18 @@
 	color: green;
 }
 
+.author-link img {
+	width: 50px;
+	float: left;
+	margin-right: 15px
+}
+
 .author-link h3 {
 	font-size: 1em;
-	margin-top: 20px;
 	color: #777;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	margin-bottom: 30px;
+	margin: 5px 0;
 }
 
 .author-link  h4{
@@ -39,12 +44,15 @@
 	color: #777;
 	padding-top: 0;
 	margin-bottom: 5px;
-	margin-top: 0;
+	margin-top: 5px;
 	font-weight: bold;
 }
 
+.author-link h4 a {color: #777;}
+.author-link h4 a:hover {color: black;}
+
 .author-link h5 {
-	margin-top: 0;
+	margin: 0;
 	color: #777;
 	font-weight: normal;
 }
