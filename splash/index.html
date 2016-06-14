@@ -24,8 +24,41 @@
 <script src="js/uikit.scrollspy.js"></script>
 <script src="js/scripts.js"></script>
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<style>
+h2.style2 {
+    text-decoration: underline;
+}
+
+h2.style2, h2 {
+  width: 50%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+</style>
+
 </head>
 <body id="backtotop">
+
+<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
 
 <div class="fullwidth clearfix">
 	<div id="topcontainer" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 200, repeat: false}">
@@ -69,8 +102,10 @@
 <div class="fullwidth colour2 clearfix">
 	<div id="maincont" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 200, repeat: true}">
 
-		<p><strong>Good Writing Can Impact the World</strong> At TldrHub, we strive to provide articles that cover all sides of a story or an event, not just focus on one </p>
-        <h2>Click Below if you Would Like to Write for Us!</h2>
+		<p><strong>Good Writing Can Impact the World</strong> At TldrHub, we strive to provide articles that cover all sides of a story or an event, not just focus on one side or one agenda. We are tired of other outlets shoving their agendas down our throats and not letting us decide our own positions for ourselves. TldrHub is a place where the new generation of writers and thinkers can come together and debate and share articles and their views on current events and other investigative reports. <strong>Feel Free, Feel Safe.</strong></p>
+        <h2 class = "style2"><a href = "https://form.jotform.com/61472819206154" target="_blank">Click Here</a></h2>
+        <h2>if you Would Like to Write for Us!</h2>
+    </div>
 
 	</div>
 </div>
@@ -78,6 +113,14 @@
 <div class="arrow-separator arrow-themelight"></div>
 
 <div class="fullwidth colour3 clearfix">
+	<div id="maincont" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 200, repeat: true}">
+	<p><strong>Updates will be posted here</strong></p>
+	</div>
+</div>
+
+<div class="arrow-separator arrow-color3"></div>
+
+<div class="fullwidth colour4 clearfix">
 	<div id="quotecont" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 200, repeat: true}">
 
         <div id="commentslider" class="owl-carousel">
@@ -88,12 +131,16 @@
             	<p class="author">- Pranav Bokey</p>
             </div>
             <div class="item">
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec quis enim</strong> nulla. Suspendisse posuere arcu ac eros iaculis egestas commodo risus tempus. <em>Fusce placerat nulla nisi</em>."</p>
-            	<p class="author">- Laura Roberts</p>
+                <p>"<strong>A Platform for Spreading Ideas</strong> To me, TldrHub is a community where millennials can help each other understand the world. Every day we hear about events and problems, but no one really knows what to do. My role as Editor-in-Chief is to help people spread ideas so we can become a more well-informed society.</p>
+            	<p class="author">- Nathan Morse</p>
             </div>
             <div class="item">
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec quis enim</strong> nulla. Suspendisse posuere arcu ac eros iaculis egestas commodo risus tempus. <em>Fusce placerat</em> nulla nisi. Proin congue erat non orci adipiscing nec <strong>porttitor</strong> lacus egestas."</p>
-            	<p class="author">- David Jones</p>
+            	<p class="author">- Irfan Kovankaya</p>
+            </div>
+            <div class="item">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec quis enim</strong> nulla. Suspendisse posuere arcu ac eros iaculis egestas commodo risus tempus. <em>Fusce placerat</em> nulla nisi. Proin congue erat non orci adipiscing nec <strong>porttitor</strong> lacus egestas."</p>
+            	<p class="author">- Aditya Srivastava</p>
             </div>
         </div>
 	
@@ -102,22 +149,41 @@
 
 <div class="arrow-separator arrow-grey"></div>
 
-<div class="fullwidth clearfix">
-	<div id="footercont" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 200, repeat: true}">
 
-		<p class="backtotop"><a title="" href="#backtotop"><span class="fa fa-angle-double-up"></span></a></p>
-		<div id="socialmedia" class="clearfix">
-			<ul>
-				<li><a title="" href="#" rel="external"><span class="fa fa-facebook"></span></a></li>
-				<li><a title="" href="#" rel="external"><span class="fa fa-twitter"></span></a></li>
-				<li><a title="" href="#" rel="external"><span class="fa fa-google-plus"></span></a></li>
-				<li><a title="" href="#" rel="external"><span class="fa fa-linkedin"></span></a></li>
-				<li><a title="" href="#" rel="external"><span class="fa fa-pinterest"></span></a></li>
-			</ul>
+
+<div class="fullwidth clearfix">
+
+	<div style="float: left; width: 50%">
+		<div align="center">
+			<iframe 
+				src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.tldrhub.com&layout=button_count&size=large&mobile_iframe=true&width=84&height=28&appId" width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+			</iframe>
 		</div>
-		<p>Free Responsive Website Template by <a title="download website templates" href="http://www.downloadwebsitetemplates.co.uk" rel="external">Download Website Templates</a> - Icons by <a title="" href="http://fortawesome.github.io/Font-Awesome/" rel="external">Font Awesome</a></p>
+		<div align = "center">
+			<iframe 
+				src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Ftldrhub&width=0&height=80&layout=standard&show_faces=true&appId" width="0" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+			</iframe>
+		</div>
+	</div>
+
+	<div style="float: right; width: 50%">
+		<div align="center">
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.tldrhub.com" data-text="News for the Future" data-size="large" data-related="tldrhub" data-hashtags="newnews">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</div>
+		<div align="center">
+			<a href="https://twitter.com/tldrhub" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @tldrhub</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</div>
 	</div>
 </div>
+
+	<div class="fullwidth clearfix">
+		<div align = "center">
+			<p>Free Responsive Website Template by <a title="download website templates" href="http://www.downloadwebsitetemplates.co.uk" rel="external">Download Website Templates</a> - Icons by <a title="" href="http://fortawesome.github.io/Font-Awesome/" rel="external">Font Awesome</a></p>
+		</div>
+	</div>
+</div>
+
+
    
 </body>
 </html>

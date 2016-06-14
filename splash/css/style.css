@@ -132,8 +132,14 @@ h1, h2, h3
 
 .colour3
 {
+	background: #cde5ce;
+}
+
+.colour4
+{
 	background: #EEE;
 }
+
 
 
 /* ==================================================
@@ -180,6 +186,12 @@ h1, h2, h3
 		{
 			border-color: #EEE rgba(238,238,238,0) rgba(238,238,238,0) rgba(238,238,238,0);
 		}
+
+		.arrow-color3:after
+		{
+			border-color: #cde5ce rgba(238,238,238,0) rgba(238,238,238,0) rgba(238,238,238,0);
+		}
+	
 
 /* ==================================================
    General Layout Styles
