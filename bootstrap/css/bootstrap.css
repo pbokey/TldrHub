@@ -4348,8 +4348,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 .navbar-form {
@@ -4481,7 +4482,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: rgba(113,168,116,.95);
+  background: white;
   border-color: #649E68;
 }
 .navbar-default .navbar-brand {
@@ -4496,7 +4497,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: white;
+  color: #777;
   transition: all .2s linear;
 }
 .navbar-default .navbar-nav > li > a:hover,
