@@ -1,69 +1,129 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Coming Soon</title>
-<link href="tools/style.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="tools/font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="tools/jquery.min.js"></script> 
-<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
-
-
+<!-- Website Template designed by www.downloadwebsitetemplates.co.uk -->
+<meta charset="UTF-8">
+<title>Progress - Free Responsive Website Template by Download Website Templates</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
+<link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+<link rel="shortcut icon" href="images/ico/favicon.png">
+<!--[if IE]><![endif]-->
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/countdown.js"></script>
+<script src="js/owlcarousel.js"></script>
+<script src="js/uikit.scrollspy.js"></script>
+<script src="js/scripts.js"></script>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
-<body>
-<div class="transy"></div>
-<div class="wrapper">
-	<div class="centered">
-		<div class="header">
-			<img src="images/logo.png" width="225px" />
-		</div>
-		
-		<div class="content">
-				<p>we are working on something very interesting!</p>
-		</div>
-		
-		
-		
+<body id="backtotop">
 
+<div class="fullwidth clearfix">
+	<div id="topcontainer" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 300, repeat: true}">
 		
-		<div class="form">
-			<p>be notified! we just need your email address.</p>
-			<div class="mainform">
-				<div class="field"><input type="text" class="field" id="test" value="example@youremail.com"  /></div>
-				<div class="submit"><input class="submit" type="button" value="Okay" /></div>						
-			</div>
-		</div>
+		<p><span class="fa fa-signal"></span></p>
+		<h1><img src="images/tldrhub.png" width="200px"></h1>
 		
-		
-		
-		<div class="social">
-		<p>
-			<a href="#"><span class="socicon-pinterest"></span></a>
-			<a href="#"><span class="socicon-instagram"></span></a>
-			<a href="#"><span class="socicon-twitter"></span></a>
-			<a href="#"><span class="socicon-facebook"></span></a>
-		</p>
-		</div>
 	</div>
 </div>
 
-	
-	
-		<script type="text/javascript">
-var placeholder = $("#test").val();
+<div class="arrow-separator arrow-white"></div>
 
-$("#test").keydown(function() {
-    if (this.value == placeholder) {
-        this.value = '';
-    }
-}).blur(function() {
-    if (this.value == '') {
-        this.value = placeholder;
-    }
-});
-</script>
+<div class="fullwidth colour1 clearfix">
+	<div id="countdown" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 300, repeat: true}">
 
+		<div id="countdowncont" class="clearfix">
+			<ul id="countscript">
+				<li>
+					<span class="days">00</span>
+					<p>Days</p>
+				</li>
+				<li>
+					<span class="hours">00</span>
+					<p>Hours</p>
+				</li>
+				<li class="clearbox">
+					<span class="minutes">00</span>
+					<p>Minutes</p>
+				</li>
+				<li>
+					<span class="seconds">00</span>
+					<p>Seconds</p>
+				</li>
+			</ul>
+		</div>
+	
+	</div>
+</div>
+
+<div class="arrow-separator arrow-theme"></div>
+
+<div class="fullwidth colour2 clearfix">
+	<div id="maincont" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 300, repeat: true}">
+
+		<p><strong>Lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit. <a title="" href="#">Donec quis enim nulla</a>. Suspendisse posuere arcu ac eros iaculis egestas commodo risus tempus. Fusce placerat nulla nisi. Proin congue erat non orci adipiscing nec porttitor lacus egestas. <em>Donec venenatis</em>, risus et hendrerit ultrices, libero sem lacinia risus, ut convallis massa sapien nec libero. Suspendisse arcu orci, gravida nec aliquet ut, lacinia non nisl.</p>
+        <h2>Sign up and we'll let you know when we launch</h2>
+        <p>If you would like to receive <strong>news and special offers</strong> please send us your email address below:</p>
+		<div id="signupform" class="sb-search clearfix">
+			<form method="post" id="contact" class="clearfix">
+				<input class="sb-search-input" placeholder="Enter email ..." type="text" value="">
+				<input class="sb-search-submit" value="" type="submit">
+				<button class="formbutton" type="submit"><span class="fa fa-search"></span></button>
+			</form>
+		</div>
+	
+	</div>
+</div>
+
+<div class="arrow-separator arrow-themelight"></div>
+
+<div class="fullwidth colour3 clearfix">
+	<div id="quotecont" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 300, repeat: true}">
+
+        <div id="commentslider" class="owl-carousel">
+            <div class="item">
+                <p>"<strong>Lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit. Donec quis enim nulla. <em>Suspendisse posuere</em> arcu ac eros iaculis egestas commodo risus tempus. Fusce placerat nulla nisi. Proin congue erat non orci adipiscing nec porttitor lacus egestas."</p>
+            	<p class="author">- Andrew Smith</p>
+            </div>
+            <div class="item">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec quis enim</strong> nulla. Suspendisse posuere arcu ac eros iaculis egestas commodo risus tempus. <em>Fusce placerat nulla nisi</em>."</p>
+            	<p class="author">- Laura Roberts</p>
+            </div>
+            <div class="item">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Donec quis enim</strong> nulla. Suspendisse posuere arcu ac eros iaculis egestas commodo risus tempus. <em>Fusce placerat</em> nulla nisi. Proin congue erat non orci adipiscing nec <strong>porttitor</strong> lacus egestas."</p>
+            	<p class="author">- David Jones</p>
+            </div>
+        </div>
+	
+	</div>
+</div>
+
+<div class="arrow-separator arrow-grey"></div>
+
+<div class="fullwidth clearfix">
+	<div id="footercont" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 300, repeat: true}">
+
+		<p class="backtotop"><a title="" href="#backtotop"><span class="fa fa-angle-double-up"></span></a></p>
+		<div id="socialmedia" class="clearfix">
+			<ul>
+				<li><a title="" href="#" rel="external"><span class="fa fa-facebook"></span></a></li>
+				<li><a title="" href="#" rel="external"><span class="fa fa-twitter"></span></a></li>
+				<li><a title="" href="#" rel="external"><span class="fa fa-google-plus"></span></a></li>
+				<li><a title="" href="#" rel="external"><span class="fa fa-linkedin"></span></a></li>
+				<li><a title="" href="#" rel="external"><span class="fa fa-pinterest"></span></a></li>
+			</ul>
+		</div>
+		<p>Free Responsive Website Template by <a title="download website templates" href="http://www.downloadwebsitetemplates.co.uk" rel="external">Download Website Templates</a> - Icons by <a title="" href="http://fortawesome.github.io/Font-Awesome/" rel="external">Font Awesome</a></p>
+	</div>
+</div>
+   
 </body>
 </html>
