@@ -84,6 +84,11 @@ p
 	margin: 0 0 20px 0;
 }
 
+.main-summary {
+	font-family: Neuton, Cambria, Georgia, Garamond, serif;
+	font-size: 1.1em;
+}
+
 strong
 {
 	font-weight: 600;
@@ -106,8 +111,9 @@ h1, h2, h3
 
 	h2
 	{
-		font-size: 38px;
-		line-height: 38px;
+		font-size: 30px;
+		line-height: 35px;
+		font-weight: 600;
 	}
 		
 	h3
@@ -132,7 +138,7 @@ h1, h2, h3
 
 .colour3
 {
-	background: #cde5ce;
+	background: #B8DBBA;
 }
 
 .colour4
@@ -189,7 +195,7 @@ h1, h2, h3
 
 		.arrow-color3:after
 		{
-			border-color: #cde5ce rgba(238,238,238,0) rgba(238,238,238,0) rgba(238,238,238,0);
+			border-color: #B8DBBA rgba(238,238,238,0) rgba(238,238,238,0) rgba(238,238,238,0);
 		}
 	
 
@@ -463,6 +469,8 @@ h1, h2, h3
 				{
 					top: 2px;
 				}
+
+.footer {font-size: 15px;}
 
 /* ==================================================
    Responsive Media Queries - Tablets
