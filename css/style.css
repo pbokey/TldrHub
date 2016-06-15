@@ -53,56 +53,52 @@ a:hover {
 	text-decoration: underline;
 }
 
+.header {
+	padding: 20px 0 15px 0;
+}
+
 .logo {
-	padding: 20px 0;
+	width: 300px;
 }
 
 .navbar {
 	box-shadow: 0px 0px 10px rgba(0,0,0,.2);
 	width: 100%;
 	z-index: 1000;
+	-webkit-transition: all ease-in-out .3s;
+       -o-transition: all ease-in-out .3s;
+          transition: all ease-in-out .3s;
 }
-
-.shrink .navbar-nav > li > a {
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-@media (min-width: 768px) {
-	.logo-img {
-		width: 145px;
-		-webkit-transition: all 0.4s ease;
-		transition: all 0.4s ease;
-	}
-
-	.shrink .logo-img {width: 95px;}
-	.logo-politics, .logo-finance {width: 200px;}
-	.shrink .logo-politics, .shrink .logo-finance {width: 130px;}
-}
-
-@media (max-width: 767px) {
-	.logo-img {width: 95px;}
-	.logo-politics, .logo-finance {width: 130px;}
-	.col-md-3 a img {margin-bottom: 10px;}
-}\
-
 
 .affix {
     top: 0;
     width: 100%;
 }
 
-.affix + .container {
-    padding-top: 0px;
+.logo-img {
+	-webkit-transition: all ease-in-out .5s;
+       -o-transition: all ease-in-out .5s;
+          transition: all ease-in-out .5s;
 }
 
+.logo-img img {
+	height: 30px;
+	width: 0px;
+	-webkit-transition: all ease-in-out .5s;
+       -o-transition: all ease-in-out .5s;
+          transition: all ease-in-out .5s;
+}
 
+.logo-on img {
+	width: 84px;
+	height: 30px;
+}
 
 .search-bar {
   display: inline;
   width: 0;
   height: 34px;
-  margin-top: 20px;
+  margin-top: 8px;
   margin-right: 2px;
   padding: 6px 0px;
   font-size: 14px;
@@ -120,7 +116,7 @@ a:hover {
   display: inline;
   width: 150px;
   height: 34px;
-  margin-top: 20px;
+  margin-top: 8px;
   margin-right: 5px;
   margin-left: 10px;
   padding: 6px 12px;
@@ -149,17 +145,10 @@ a:hover {
 }
 
 .search-button.search-on {
-	margin: 20px 0 16px 0;
-	padding: 7px 10px;
-}
-
-.shrink .search-button.search-on {
 	margin: 8px 0 5px 0;
 	padding: 7px 10px;
 }
 
-.shrink .search-bar {margin-top: 8px;}
-.shrink .search-bar.search-on {margin-top: 8px;}
 
 .search-icon {
   -webkit-transition: all ease-in-out .3s;
@@ -182,10 +171,32 @@ a:hover {
   color: rgba(255,255,255,.7);
 }
 
+.info {
+	background: #97C99A url(../images/site/bg-3.png) fixed;
+	padding: 30px 0;
+	text-align:center;
+	color: white;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+	z-index: 500;
+}
+
+.info p {
+	font-family: "Work Sans";
+	font-size: 17px;
+	letter-spacing: -.5px;
+	font-weight: 300;
+}
+
+.info-banner {
+	width: 80%;
+	margin: 0 auto;
+}
+
 .top-story {
-	padding-top: 90px;
+	padding-top: 25px;
 	background: #dfdfdf url(../images/site/bg-2.png);
 	padding-bottom: 25px;
+	z-index: 0;
 }
 
 .top-story  img{
