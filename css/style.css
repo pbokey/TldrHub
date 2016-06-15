@@ -59,8 +59,8 @@ a:hover {
 
 .navbar {
 	box-shadow: 0px 0px 10px rgba(0,0,0,.2);
-	padding-top: 20px;
-	margin-top: -20px;
+	width: 100%;
+	z-index: 1000;
 }
 
 .shrink .navbar-nav > li > a {
@@ -84,7 +84,19 @@ a:hover {
 	.logo-img {width: 95px;}
 	.logo-politics, .logo-finance {width: 130px;}
 	.col-md-3 a img {margin-bottom: 10px;}
+}\
+
+
+.affix {
+    top: 0;
+    width: 100%;
 }
+
+.affix + .container {
+    padding-top: 0px;
+}
+
+
 
 .search-bar {
   display: inline;
