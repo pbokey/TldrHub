@@ -1,10 +1,8 @@
 $(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-	$('.logo-img').addClass('logo-on');
-	$('.logo-img').css('padding','10px 15px');
+  if ($(document).scrollTop() > 89) {
+	$('.info').css('padding-top','82px');
   } else {
-	$('.logo-img').removeClass('logo-on');
-	$('.logo-img').css('padding','0');
+	$('.info').css('padding-top','30px');
   }
 });
 
