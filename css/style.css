@@ -172,7 +172,7 @@ a:hover {
 }
 
 .info {
-	background: #97C99A url(../images/site/bg-3.png) fixed;
+	background: #97C99A;
 	padding: 30px 0;
 	text-align:center;
 	color: white;
