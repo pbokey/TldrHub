@@ -1,8 +1,8 @@
 $(window).scroll(function() {
   if ($(document).scrollTop() > 89) {
-	$('.info').css('padding-top','82px');
+	$('.info').css('margin-top','0');
   } else {
-	$('.info').css('padding-top','30px');
+	$('.info').css('margin-top','-52px');
   }
 });
 
