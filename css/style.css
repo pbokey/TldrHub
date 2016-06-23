@@ -519,5 +519,76 @@ html, body {
        height: 350px;
      }
 
+h2.style2, h2 {
+  width: 50%;
+  height: 60px;
+  margin: 50px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  display: inline;
+}
+
+@media screen and (max-width: 480px)
+{	
+
+	body
+	{
+		font-size: 21px;
+		line-height: 27px;
+	}
+	
+	#topcontainer h1
+	{
+		font-size: 36px;
+		line-height: 36px;
+		
+	}
+
+		#topcontainer h1 span
+		{
+			font-size: 50px;
+			line-height: 50px;
+		}
+	
+	#countdown #countdowncont ul#countscript li
+	{
+		padding: 6px 0;
+	}
+	
+		#countdown #countdowncont ul#countscript li span
+		{
+			font-size: 62px;
+			line-height: 62px;
+		}
+
+		#countdown #countdowncont ul#countscript li p
+		{
+			font-size: 16px;
+			line-height: 16px;
+		}
+		
+	#maincont #signupform
+	{
+		margin: 0 auto 20px auto;
+		width: 100%;
+	}
+	
+	#quotecont
+	{
+		padding: 5px 0;
+	}
+	
+	#footercont #socialmedia ul li
+	{
+		margin: 0 5px;
+	}
+	
+		#footercont #socialmedia ul li a
+		{
+			font-size: 28px;
+		}
+	
+}
+
 
 
