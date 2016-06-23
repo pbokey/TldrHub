@@ -1,3 +1,4 @@
+
 (function($) {
 	$.fn.countdown = function(options, callback) {
 		//custom 'this' selector
@@ -53,4 +54,5 @@
 		//loop the function
 		interval = setInterval(countdown_proc, 1000);
 	}
+
 }) (jQuery);
