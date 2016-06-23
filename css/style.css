@@ -70,7 +70,7 @@ a:hover {
           transition: all ease-in-out .3s;
 }
 
-.shrink .navbar-nav > li > a {
+.shrink.navbar-fixed-top .navbar-nav > li > a {
 	padding-top: 15px;
 	padding-bottom: 15px;
 }
@@ -101,14 +101,6 @@ a:hover {
 }
 
 .logo-img {
-	-webkit-transition: all ease-in-out .5s;
-       -o-transition: all ease-in-out .5s;
-          transition: all ease-in-out .5s;
-}
-
-.homepage .logo-img img {
-	height: 30px;
-	width: 0px;
 	-webkit-transition: all ease-in-out .5s;
        -o-transition: all ease-in-out .5s;
           transition: all ease-in-out .5s;
@@ -218,12 +210,12 @@ a:hover {
 	margin: 0 auto;
 }
 
-.top-story.homepage {
-	padding-top: 75px;
+.homepage .top-story {
+	padding-top: 25px;
 }
 
 .top-story {
-	padding-top: 25px;
+	padding-top: 95px;
 	background: #dfdfdf url(../images/site/bg-2.png);
 	padding-bottom: 25px;
 	z-index: 0;
