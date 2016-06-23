@@ -219,11 +219,11 @@ a:hover {
 }
 
 .top-story.homepage {
-	padding-top: 25px;
+	padding-top: 75px;
 }
 
 .top-story {
-	padding-top: 75px;
+	padding-top: 25px;
 	background: #dfdfdf url(../images/site/bg-2.png);
 	padding-bottom: 25px;
 	z-index: 0;
