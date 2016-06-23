@@ -70,6 +70,33 @@ a:hover {
           transition: all ease-in-out .3s;
 }
 
+<<<<<<< HEAD
+=======
+.shrink .navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+	.logo-img {
+		width: 145px;
+		-webkit-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
+
+	.shrink .logo-img {width: 95px;}
+	.logo-politics, .logo-finance {width: 200px;}
+	.shrink .logo-politics, .shrink .logo-finance {width: 130px;}
+}
+
+@media (max-width: 767px) {
+	.logo-img {width: 95px;}
+	.logo-politics, .logo-finance {width: 130px;}
+	.col-md-3 a img {margin-bottom: 10px;}
+}
+
+
+>>>>>>> newlayout
 .affix {
     top: 0;
     width: 100%;
@@ -221,7 +248,7 @@ a:hover {
 }
 
 .top-story h5 {
-	font-weight: 600;
+	font-weight: 700;
 	font-family: "Work Sans";
 	color: #888;
 	margin-bottom: 17px;
@@ -298,21 +325,11 @@ a:hover {
 	color: #555;
 }
 
-.post-row {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	cursor: pointer;
-}
-
-.post-row:hover {
-	background: rgba(255,255,255,.75);
-	box-shadow: 0 0 5px rgba(0,0,0,.25);
-}
-
 .post-thumb h4 {
+	margin: 10px 0;
 	padding-top: 0;
-	font-weight: 400;
-	font-family: Neuton;
+	font-weight: 300;
+	font-family: "Work Sans";
 	font-size: 1.6em;
 }
 
@@ -320,9 +337,14 @@ a:hover {
 	color: #333;
 }
 
+.post-thumb ul {
+	margin-bottom: 0;
+}
+
 .post-thumb li {
-	font-weight: 600;
+	font-weight: 700;
 	font-family: "Work Sans";
+	letter-spacing: .2px;
 	color: #888;
 }
 
@@ -335,12 +357,25 @@ a:hover {
 	font-weight: bold;
 }
 
-.post-thumb-read {
-	font-weight: bold;
-	cursor: pointer;
+@media (max-width: 767px) {
+	.main {padding-top: 0;}
+	.post-thumb img {display: none;}
+	.post-thumb ul {display: none;}
+	.post-thumb h4 {font-size: 18px; padding: 10px 15px; margin: 0;}
+	.container.thumb-container {padding: 0;}
+	.hr3 {margin: 0;}
 }
 
-.hr3 {margin: 5px 0;}
+.post-row:hover .thumb-options {
+	opacity: 1;
+	margin-top: 0;
+}
+
+@media (min-width: 768px) {
+	.hr3 {margin: 25px 0; clear: both;}
+}
+
+
 .hr4 {margin: 5px 0 10px 0;}
 
 .bottom-nav {
