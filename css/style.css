@@ -70,8 +70,7 @@ a:hover {
           transition: all ease-in-out .3s;
 }
 
-<<<<<<< HEAD
-=======
+
 .shrink .navbar-nav > li > a {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -96,7 +95,7 @@ a:hover {
 }
 
 
->>>>>>> newlayout
+
 .affix {
     top: 0;
     width: 100%;
@@ -220,8 +219,12 @@ a:hover {
 	margin: 0 auto;
 }
 
-.top-story {
+.top-story.homepage {
 	padding-top: 25px;
+}
+
+.top-story {
+	padding-top: 75px;
 	background: #dfdfdf url(../images/site/bg-2.png);
 	padding-bottom: 25px;
 	z-index: 0;
