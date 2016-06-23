@@ -1,8 +1,8 @@
 $(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-	$('nav').addClass('shrink');
+  if ($(document).scrollTop() > 89) {
+	$('.info').css('margin-top','0');
   } else {
-	$('nav').removeClass('shrink');
+	$('.info').css('margin-top','-52px');
   }
 });
 
