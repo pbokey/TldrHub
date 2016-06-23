@@ -6,6 +6,14 @@ $(window).scroll(function() {
   }
 });
 
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 89) {
+	$('.navbar-fixed-top').addClass('shrink');
+  } else {
+	$('.navbar-fixed-top').removeClass('shrink');
+  }
+});
+
 $(document).ready(function(){
     $(".search-button").click(function(){
         $(".search-bar").toggleClass("search-on");

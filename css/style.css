@@ -70,7 +70,6 @@ a:hover {
           transition: all ease-in-out .3s;
 }
 
-
 .shrink .navbar-nav > li > a {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -79,8 +78,8 @@ a:hover {
 @media (min-width: 768px) {
 	.logo-img {
 		width: 145px;
-		-webkit-transition: all 0.4s ease;
-		transition: all 0.4s ease;
+		-webkit-transition: all 0.2s ease-in-out;
+		transition: all 0.2 ease-in-out;
 	}
 
 	.shrink .logo-img {width: 95px;}
@@ -107,7 +106,7 @@ a:hover {
           transition: all ease-in-out .5s;
 }
 
-.logo-img img {
+.homepage .logo-img img {
 	height: 30px;
 	width: 0px;
 	-webkit-transition: all ease-in-out .5s;
