@@ -98,6 +98,10 @@ p
 	margin-bottom: 40px;
 }
 
+.main-summary strong {
+	font-family: "Work Sans";
+}
+
 strong
 {
 	font-weight: 600;
