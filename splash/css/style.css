@@ -72,7 +72,7 @@ a:hover {color: black; text-decoration: underline;}
 	background: #B8DBBA;
 	text-decoration: none;
 	color: #71A874;
-	padding: 5px 100px;
+	padding: 5px 20px;
 	border: 1px solid #7FB582;
 	transition: all .2s ease-in;
 }
