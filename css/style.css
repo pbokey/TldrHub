@@ -450,12 +450,14 @@ html, body {
 #imagescale {    
     width: 100%;
     padding: 75px 0;
+    position: relative;
 }
 
 #imagescale {
-    background-image:url("about-us.png");
+    background-image:url("../about/pics/atlanta1.jpg");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom 62%;
+    background-size:100%;
 }
 
 #imagescale {
