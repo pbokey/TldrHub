@@ -22,59 +22,65 @@
 
 
 		<style>
-button.accordion {
-    background-color: transparent;
-    color: ;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: center;
-    outline: none;
-    font-size: 15px;
-    transition: 0.5s;
-}
+			button.accordion {
+			    background-color: transparent;
+			    color: ;
+			    cursor: pointer;
+			    padding: 18px;
+			    width: 100%;
+			    border: none;
+			    text-align: center;
+			    outline: none;
+			    font-size: 15px;
+			    transition: 0.3s;
+			}
 
-button.accordion.active, button.accordion:hover {
-	background-color: rgba(151, 201, 154, .4);
+			button.accordion.active, button.accordion:hover {
+				background-color: rgba(151, 201, 154, .4);
 
-}
-
-
-div.panel {
-    padding: 0 18px;
-    background-color:  rgba(151, 201, 154, .4);
-    max-height: 0;
-    overflow: hidden;
-    transition: 1.5s ease-in-out;
-    opacity: 0;
-
-}
-
-div.panel.show {
-    opacity: 1;
-    max-height: 500px;
-}
-
-button.accordion:after {
-    content: '\2193'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #777;
-    float: center;
-    margin-left: 5px;
-}
-
-button.accordion.active:after {
-    content:"\2191" ; /* Unicode character for "minus" sign (-) */
-}
-
-.centerBlock {
-                display: table;
-                margin: 0 auto;
-            }
+			}
 
 
-</style>
+			div.panel {
+			    padding: 15px 20px;
+			    background-color:  rgba(151, 201, 154, .2);
+			    max-height: 0;
+			    overflow: hidden;
+			    transition: 0.5s ease-in-out;
+			    opacity: 0;
+
+			}
+
+			div.panel p {
+				color: dimgray;
+				font-family: Work Sans;
+				font-weight: 300
+			}
+
+			div.panel.show {
+			    opacity: 1;
+			    max-height: 500px;
+			}
+
+			button.accordion:after {
+			    content: '\2193'; /* Unicode character for "plus" sign (+) */
+			    font-size: 13px;
+			    color: #777;
+			    float: center;
+			    margin-left: 5px;
+			}
+
+			button.accordion.active:after {
+			    content:"\2191" ; /* Unicode character for "minus" sign (-) */
+			}
+
+			.centerBlock {
+				display: table;
+			    margin: 0 auto;
+			}
+
+
+		</style>
 
 	</head>
 	<body>
@@ -111,7 +117,6 @@ button.accordion.active:after {
 					<!-- this is for the text over the image, does not auto-resize -->
 					<div class="row">
 						<div class="col-md-12">
-				
 								<div id="imagescale">
 									<h2>
                               			<span>
@@ -124,10 +129,14 @@ button.accordion.active:after {
                            			</h2>
 								</div>
 						</div>
-						
-						<div class="col-md-12">
-							<h4 class="tldr-title center">tldr: summary</h4>
-							<p class="tldr" style="text-align:center">A team of four dedicated individuals, strives to provide you with the news that is structured to provide our new generation a way to recieve the information in just a few seconds. TldrHub started out as a passion for true news that allows the readers to create their own opinions but soon transformed into a platform where brevity and efficiency is the name of the game.</p>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<h2>News in a new way</h2>
+						</div>
+
+						<div class="col-md-8">
+							<p class="tldr" style="text-align:center">At TldrHub, we publish high-quality articles with a brand new approach to news and analysis. Unlike other news sites, each article has a 100-word summary, called a “tldr” (too long; didn’t read). Another unique feature about TldrHub is that we encourage and publish opinion pieces from various perspectives, whether that be liberal, conservative, or anything in between. TldrHub started from a goal to create a true news site that allows readers to come to their own opinions, but it soon transformed into a platform where brevity and efficiency is the name of the game.</p>
 						</div>
 					</div>
 				</div>
@@ -140,48 +149,48 @@ button.accordion.active:after {
 						<div class="col-md-12">
 							<div class ="col-md-6">
 								<button class="accordion">
-								<img src="pics/pranav.JPG" width="150px" height = "150px"/>
-								<h3>Pranav Bokey</h3>
-								<h4>Chief Executive Officer</h4>
-							</button>
-							<div class = "panel">
-									<p style="color:dimgray;font-family:Work Sans;font-weight:400">Pranav Bokey is currently a freshman, studying Computer Science, at the Georgia Institute of Technology located in Atlanta. The idea for this type of news and reporting came to him after seeing the heavily biased articles filled with various agendas from various spectrums of media fill his Facebook and Twitter feed. From that contempt for such opinionated "news" came the birth of a new company which has only grown exponentially since he pitched his idea to his friends in May. As CEO of the company, Pranav oversees all the operations and projects of the comapny and manages its growth. He is also a part of the development team. He hopes that this company can really blossom into the forefront puplication in the years to come.</p>
-							</div>
+									<img src="pics/pranav.JPG" width="150px" height = "150px"/>
+									<h3>Pranav Bokey</h3>
+									<h4>Chief Executive Officer</h4>
+								</button>
+								<div class = "panel">
+									<p>Pranav is currently a freshman studying Computer Science at the Georgia Institute of Technology, located in Atlanta. The idea for this type of news and reporting came to him after seeing the heavily biased articles filled with various agendas from various spectrums of media fill his Facebook and Twitter feed. From that contempt for such opinionated “news” came the birth of a new company, which has only grown exponentially since he pitched his idea to his friends in May. As CEO of the company, Pranav oversees all the operations and projects of the comapny and manages its growth. He is also a part of the development team. He hopes that this company can really blossom into a forefront publication in the years to come.</p>
+								</div>
 							</div>
 							<div class = "col-md-6">
-							<button class="accordion">
-								<img src="pics/nathan.JPG" width="150px" height="150px" />
-								<h3>Nathan Morse</h3>
-								<h4>Editor-in-Chief</h4>
-							</button>
-							<div class = "panel">
-								<p style="color:dimgray;font-family:Work Sans;font-weight:400">Nathan Morse is currently a  sophomore studying Political Science and Stastics at the University of Florida in Gainesvile. Nathan was brought onto the team for his previous experiences in editing and web development. He has quickly rose to an integral part of the team and his work has led to the wonderful design on the site that the other developers continute to build off of everyday. As Editor-in-Chief it is Nathan's duty to make sure every article posted is of the upmost quality.</p>
+								<button class="accordion">
+									<img src="pics/nathan.JPG" width="150px" height="150px" />
+									<h3>Nathan Morse</h3>
+									<h4>Editor-in-Chief</h4>
+								</button>
+								<div class = "panel">
+									<p>Nathan is a sophomore studying Political Science and Statistics at the University of Florida in Gainesville. Nathan was brought onto the team for his previous experiences in editing and web development, and he has quickly risen to an integral part of the team. His work has led to the wonderful design of the site that the other developers continue to build off of every day. As Editor-in-Chief, it is Nathan's duty to make sure every article posted is of the upmost quality.</p>
+								</div>
 							</div>
 						</div>
 					</div>
 					<br />
-					<br />
 					<div class = "row about">
 						<div class="col-md-12">
 							<div class = "col-md-6">
-							<button class="accordion">
-								<img src="pics/irfan.png" width="150px" height = "150px"/>
-								<h3>Irfan Kovankaya</h3>
-								<h4>Head of Marketing and Outreach</h4>
-							</button>
-							<div class = panel>
-								<p style="color:dimgray;font-family:Work Sans;font-weight:400">Irfan Kovankaya is currently a freshman at the University of Florida studying Political Science.</p>
-							</div>
+								<button class="accordion">
+									<img src="pics/irfan.png" width="150px" height = "150px"/>
+									<h3>Irfan Kovankaya</h3>
+									<h4>Head of Marketing and Outreach</h4>
+								</button>
+								<div class = panel>
+									<p>Irfan is currently a freshman at the University of Florida studying Political Science.</p>
+								</div>
 							</div>
 							<div class = "col-md-6">
-							<button class="accordion">
-								<img src="pics/aditya.JPG" width="150px" height = "150px" />
-								<h3>Aditya Srivastava</h3>
-								<h4>Chief Financial Officer</h4>
-							</button>
-							<div class = panel>
-								<p style="color:dimgray;font-family:Work Sans;font-weight:400">Aditya Srivastava is currently a freshman at Dartmouth University (in Hannover, NH) studying both Computer Science and Economics.</p>
-							</div>
+								<button class="accordion">
+									<img src="pics/aditya.JPG" width="150px" height = "150px" />
+									<h3>Aditya Srivastava</h3>
+									<h4>Chief Financial Officer</h4>
+								</button>
+								<div class = panel>
+									<p>Aditya is currently a freshman at Dartmouth University (in Hannover, NH) studying both Computer Science and Economics.</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -196,7 +205,6 @@ button.accordion.active:after {
   								}
 						}
 						</script>
-					</div>
 				</div>
 			</section>
 			
