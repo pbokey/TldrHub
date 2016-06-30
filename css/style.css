@@ -277,7 +277,7 @@ a:hover {
 .about-top img {
 	padding: 28px 25px;
 	width: 100%;
-	background: rgba(255,255,255,.5);
+	background: rgba(255,255,255,.3);
 }
 
 @media (max-width: 767px) {
