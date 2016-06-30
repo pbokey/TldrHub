@@ -121,7 +121,7 @@ a:hover {
   font-size: 14px;
   line-height: 1.42857143;
   color: white;
-  background-color: rgba(255,255,255,.2);
+  background-color: (255,255,255,.2);
   background-image: none;
   border: 0;
   -webkit-transition: all ease-in-out .3s;
@@ -264,6 +264,24 @@ a:hover {
 	padding: 10px;
 	margin: 0 auto;
 	background: rgba(0,0,0,.5)
+}
+
+.about-top {
+	margin-top: 15px;
+}
+
+.about-top img, p {
+	margin: 0;
+}
+
+.about-top img {
+	padding: 28px 25px;
+	width: 100%;
+	background: rgba(255,255,255,.5);
+}
+
+@media (max-width: 767px) {
+	.about-top img {display: none;}
 }
 
 .hr1 {
