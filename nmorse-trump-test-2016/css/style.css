@@ -357,15 +357,14 @@ a:hover {
 	font-weight: 700;
 	font-family: "Work Sans";
 	letter-spacing: .2px;
-	color: #808080;
+	color: #888;
 }
 
 .post-thumb li a {
-	color: #808080;
+	color: #888;
 	text-transform: uppercase;
 }
 
-}
 .post-thumb p a {
 	font-weight: bold;
 }

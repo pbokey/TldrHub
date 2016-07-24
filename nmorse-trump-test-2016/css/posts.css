@@ -1,0 +1,176 @@
+.post-title {
+	letter-spacing: -1px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-weight: 300;
+	font-size: 35px;
+}
+
+.post-head {
+	margin-top: 0;
+}
+
+.post p {
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+}
+
+.post h3 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	color: green;
+}
+
+.author-link img {
+	width: 50px;
+	float: left;
+	margin-right: 15px
+}
+
+.author-link h3 {
+	font-size: 1em;
+	color: #777;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 5px 0;
+}
+
+.author-link  h4{
+	font-family: "Work Sans";
+	font-size: 1.2em;
+	color: #777;
+	padding-top: 0;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.author-link h4 a {color: #777;}
+.author-link h4 a:hover {color: black;}
+
+.author-link h5 {
+	margin: 0;
+	color: #777;
+	font-weight: normal;
+}
+
+.tldr {
+	font-size: 1.25em;
+}
+
+.tldr-title {
+	font-weight: 400;
+	font-size: 20px;
+	color: green;
+	margin-top: 0;
+	padding-top: 0;
+	letter-spacing: -1px;
+}
+
+.center {
+	padding-top: 10px;
+	text-align:center;
+}
+
+.center1{
+
+}
+
+.post p.caption {
+	font-size: 15px;
+	margin: 5px 0 30px 0;
+}
+
+.fn-head {color: #888;}
+.fn-ol {margin-left: 30px;}
+.fn-ol li {padding-left: 10px; margin-bottom: 5px;}
+
+.about-us h3 {
+	font-size: 20px;
+	margin-top: 0px;
+	color: green;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 0px;
+}
+
+.about-us h4 {
+	font-size: 15px;
+	margin-top: 0px;
+	color: #777;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+}
+
+.about-us h5 {
+	font-size: 15px;
+	margin-top: 5px;
+	color: #777;
+	margin-bottom: 5px;
+}
+
+.about-us hr {
+	margin: 5px 0;
+	border: 10px;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.about-us .hr1 hr {
+	margin: 10px 0;
+	border: 10px;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.about {
+}
+
+.about h3 {
+	font-size: 22px;
+	color: green;
+	letter-spacing: -.5px;
+	margin: 10px 0 5px 0;
+}
+
+.about h4 {
+	font-size: 15px;
+	margin-top: 0px;
+	color: #777;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 15px;
+}
+
+.about h5 {
+	font-size: 15px;
+	margin-top: 5px;
+	color: #999;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.about h6{
+	font-size: 15px;
+	margin-top: 5px;
+	color: #777;
+	margin-bottom: 5px;
+}
+
+.hr2 {
+	margin: 10px 0;
+}
