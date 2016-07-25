@@ -21,3 +21,11 @@ $(document).ready(function(){
     });
 });
 
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 200) {
+  $('.bigpic-heading').css('background','rgba(0,0,0,.85)');
+  } else if ($(document).scrollTop() < 200) {
+    $('.bigpic-heading').css('background', 'rgba(0,0,0,.6)');
+  }
+});
+

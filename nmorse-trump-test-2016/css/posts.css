@@ -182,7 +182,7 @@
 .bigpic-heading {
 	margin-top: 500px;
 	margin-bottom: 25px;
-	background: rgba(0,0,0,.6);
+	background: rgba(0,0,0,.7);
 	padding: 20px;
 	-webkit-transition: all linear .5s;
        -o-transition: all linear .5s;
@@ -190,7 +190,7 @@
 }
 
 .bigpic-heading:hover {
-	background: rgba(0,0,0,.7);
+	background: rgba(0,0,0,1);
 }
 
 .bigpic h2 {
