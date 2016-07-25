@@ -214,3 +214,10 @@
 	margin-top: 20px;
 	letter-spacing: 0;
 }
+.datetime{
+	text-align:right;
+}
+.datetime a{
+			color:green;
+			pointer-events:none;
+		}
