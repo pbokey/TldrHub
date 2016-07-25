@@ -58,7 +58,7 @@
 }
 
 .tldr {
-	font-size: 1.25em;
+	font-size: 18px;
 }
 
 .tldr-title {
@@ -183,7 +183,7 @@
 	margin-top: 500px;
 	margin-bottom: 25px;
 	background: rgba(0,0,0,.6);
-	padding: 20px;
+	padding: 20px 30px;
 	-webkit-transition: all linear .5s;
        -o-transition: all linear .5s;
           transition: all linear .5s;
@@ -197,14 +197,8 @@
 	color: white;
 }
 
-.top-story-bigpic {
-	padding: 30px 0;
-	background: #dfdfdf;
-	box-shadow: 0 0 15px rgba(0,0,0,.5);
-}
-
 .bigpic-post {
-	box-shadow: 0 0 15px rgba(0,0,0,.5);
+	box-shadow: 0 0 25px rgba(0,0,0,.5);
 }
 
 .bigpic p {
@@ -215,7 +209,7 @@
 }
 
 .bigpic .caption {
-	font-size: 12px;
+	font-size: 15px;
 	margin-top: 20px;
 	letter-spacing: 0;
 }
