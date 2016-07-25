@@ -20,6 +20,12 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="../../bootstrap/js/bootstrap.min.js"></script>
 		<script src="../../js/script.js"></script>
+		<script src="js/parallax.min.js"></script>
+
+
+		<script>
+			$('.parallax-window').parallax({imageSrc:'apple.jpg'});
+		</script>
 
 	</head>
 	<body>
@@ -40,33 +46,26 @@
 				  <ul class="nav navbar-nav navbar-right">
 					<li><a href="../../">Recent <span class="sr-only">(current)</span></a></li>
 					<li><a href="../../politics">Politics</a></li>
-					<li class="active"><a href="../../finance">Finance</a></li>
-					<li><a href="../../tech">Tech</a></li>
 					<li><a href="../../social">Social</a></li>
+					<li class="active"><a href="../../money">Money</a></li>
+					<li><a href="../../Science">Science</a></li>
 					<form class="navbar-left" id="search" role="search"><input type="text" class="search-bar" placeholder="Search"></form>
 					<li><a class="search-button"><span class="glyphicon glyphicon-search search-icon" aria-hidden="true"></span></a></li>
 				  </ul>
 				</div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->
 			</nav>
-			
-			<section class="top-story">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h2 class="post-title">Why Apple Inc is a GREAT Buy</h2>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-md-7">
-							<img src="../apple-icon-apple.jpg" class="img-responsive" />
-							<p class="caption">Apple's Motto: Think Different  <span class="caption-source">Getty Images</span></p>
-						</div>
-						
-						<div class="col-md-5">
-							<h4 class="tldr-title">tldr: summary</h4>
-							<p class="tldr">Apple may not have met its target for Quarter 1 of 2016, but I suggest to go long on Apple Inc., which closed at $100.35 today, because of its future in India's smartphone market, which if approved my Modi will see Apple increase revenues substantially.</p>
+
+			<section class="bigpic">
+				<div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="apple.jpg">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="bigpic-heading">
+									<h2 class="post-title">Why Apple Inc. is a <strong>GREAT</strong> Buy</h2>
+									<p class="tldr">Apple may not have met its target for Quarter 1 of 2016, but I suggest to go long on Apple Inc., which closed at $100.35 today, because of its future in India's smartphone market, which if approved my Modi will see Apple increase revenues substantially.</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -174,3 +174,42 @@
 .hr2 {
 	margin: 10px 0;
 }
+
+.parallax-window {
+    background: transparent;
+}
+
+.bigpic-heading {
+	margin-top: 500px;
+	margin-bottom: 25px;
+	background: rgba(0,0,0,.6);
+	padding: 20px;
+	-webkit-transition: all linear .5s;
+       -o-transition: all linear .5s;
+          transition: all linear .5s;
+}
+
+.bigpic-heading:hover {
+	background: rgba(0,0,0,.7);
+}
+
+.bigpic h2 {
+	color: white;
+}
+
+.top-story-bigpic {
+	padding: 30px 0;
+	background: #dfdfdf;
+	box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+.bigpic-post {
+	box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+.bigpic p {
+	font-family: "Work Sans";
+	font-weight: 300;
+	font-size: 20px;
+	color: white;
+}
