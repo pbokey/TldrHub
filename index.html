@@ -22,7 +22,16 @@
 		
 	</head>
 	<style>
-		h2.style2, h2 {
+		h2.style2, {
+			width: 20%;
+	  		height: 30px;
+	  		margin: 40px;
+	  		padding-top: 40px;
+	  		padding-bottom: 0px;
+	  		display: inline;
+	 }
+
+		h2 {
 	  width: 50%;
 	  height: 60px;
 	  margin: 50px;
@@ -36,7 +45,7 @@
 		background: #B8DBBA;
 		text-decoration: none;
 		color: #71A874;
-		padding: 5px 100px;
+		padding: 5px 50px;
 		border: 1px solid #7FB582;
 		transition: all .2s ease-in;
 	}
@@ -46,31 +55,10 @@
 			color: #2F6932;
 			border: 1px solid #2F6932;
 		}
-
-		.btn:after {
-	    font-family: "Glyphicons Halflings";
-	    content: "\e114";
-	    float: right;
-	    margin-left: 15px;
-	  }
-	  /* Icon when the collapsible content is hidden */
-	  .btn.collapsed:after {
-	    content: "\e080";
-	  }
-	  .accordion-toggle:hover {
-      text-decoration: none;
-    }
 	</style>
-	<script>
-			$('.collapse').on('shown.bs.collapse', function(){
-		$(this).parent().find(".glyphicon-plus").removeClass("glyphicon-plus").addClass("glyphicon-minus");
-		}).on('hidden.bs.collapse', function(){
-		$(this).parent().find(".glyphicon-minus").removeClass("glyphicon-minus").addClass("glyphicon-plus");
-		});
-	</script>
 	<body>
 		<div class="homepage">
-			<section style="background: #fafafa url(images/site/bg-4.png)">
+			<section style="background: #fafafa ">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 header">
