@@ -182,7 +182,18 @@
 .bigpic-heading {
 	margin-top: 500px;
 	margin-bottom: 25px;
-	background: rgba(0,0,0,.7);
+	background: rgba(0,0,0, .7);
+	padding: 20px 30px;
+	-webkit-transition: all linear .5s;
+       -o-transition: all linear .5s;
+          transition: all linear .5s;
+    box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.bigpic-about {
+	margin-top: 500px;
+	margin-bottom: 25px;
+	background:rgba(61, 118, 64, .85);
 	padding: 20px 30px;
 	-webkit-transition: all linear .5s;
        -o-transition: all linear .5s;
@@ -192,6 +203,10 @@
 
 .bigpic-heading:hover {
 	background: rgba(0,0,0,.8);
+}
+
+.bigpic-about:hover {
+	background: rgba(61, 118, 64, 1);
 }
 
 .bigpic h2 {

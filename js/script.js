@@ -9,7 +9,7 @@ $(window).scroll(function() {
 $(window).scroll(function() {
   if ($(document).scrollTop() > 89) {
   $('.navbar-fixed-top').addClass('shrink');
-  } else  if ($(document).scrollTop() > 89) {
+  } else {
   $('.navbar-fixed-top').removeClass('shrink');
   }
 });
@@ -26,6 +26,18 @@ $(window).scroll(function() {
   $('.bigpic-heading').css('background','rgba(0,0,0,.85)');
   } else if ($(document).scrollTop() < 200) {
     $('.bigpic-heading').css('background', 'rgba(0,0,0,.6)');
+  }
+  else {
+  }
+});
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+  $('.bigpic-about').css('background','rgba(61, 118, 64, 1)');
+  } else if ($(document).scrollTop() < 50) {
+    $('.bigpic-about').css('background', 'rgba(61, 118, 64, .85)');
+  }
+  else {
   }
 });
 
