@@ -217,7 +217,7 @@ a:hover {
 }
 
 .homepage {
-	padding-top: 25px;
+	padding-top: 0px;
 }
 
 .top-story {
@@ -444,7 +444,7 @@ footer ul li a:hover {
 	background: rgba(255,255,255,.75);
 	border: 1px dashed #bbb;
 	width: 100%;
-	padding: 35px 0;
+	padding: 29px 0;
 	text-align: center;
 	color: #777;
 	text-transform: uppercase;
