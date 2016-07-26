@@ -210,7 +210,7 @@
 }
 
 .bigpic .caption {
-	font-size: 15px;
+	font-size: 14px;
 	margin-top: 20px;
 	letter-spacing: 0;
 }
@@ -218,6 +218,17 @@
 	text-align:right;
 }
 .datetime a{
-			color:green;
-			pointer-events:none;
-		}
+	color:green;
+	pointer-events:none;
+}
+
+.post-pic {
+	margin-bottom: 20px;
+	-webkit-transition: all linear .3s;
+       -o-transition: all linear .3s;
+          transition: all linear .3s;
+}
+
+.post-pic:hover {
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
