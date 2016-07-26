@@ -669,7 +669,7 @@ p .view a {
 }
 
 .bigpic .caption {
-	font-size: 14px;
+	font-size: 10px;
 	margin-top: 10px;
 	letter-spacing: 0;
 }
@@ -688,6 +688,16 @@ p .view a {
 .tldr-heading {
 	font-weight: 300;
 	font-size: 15px;
+	color: rgba(95, 231, 102, 1);
+	/*rgba(95, 231, 102, 1) secondary color */
+	margin-top: 0;
+	padding-top: 0;
+	letter-spacing: -1px;
+}
+
+.tldr-postheading {
+	font-weight: 300;
+	font-size: 20px;
 	color: rgba(95, 231, 102, 1);
 	/*rgba(95, 231, 102, 1) secondary color */
 	margin-top: 0;

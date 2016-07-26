@@ -6,12 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<title>Science</title>
-		<meta name="description" content="Science News in a New Way" />
+		<meta name="description" content="Science in a New Way" />
 		<meta name="keywords" content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" />
 		
 		<link rel="shortcut icon" href="../images/favicon-new.ico"> 
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
-		<link rel="stylesheet" type="text/css" href="../css/posts.css" />
 		<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Neuton:400,400italic,700' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
@@ -19,8 +18,43 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="../bootstrap/js/bootstrap.min.js"></script>
 		<script src="../js/script.js"></script>
+		<script src = "../js/parallax.min.js"></script>
 
 	</head>
+
+	<script>
+		$('.parallax-window').parallax({imageSrc: '2016/08/naps-allowed-workplace/images/nap-pod.png'});
+	</script>
+
+	<style>
+
+		/*
+		.parallax-window 
+			{
+    			background: url(../images/top-stories/trump-big.jpg) center;
+    			background-size: cover;
+			}
+		*/
+		.bigpic-heading {
+			margin-top:200px;
+		}
+
+		.bigpic-science {
+			margin-top: 500px;
+			margin-bottom: 10px;
+			background: rgba(0,0,0,.7);
+			padding: 20px 25px 20px 25px;
+				-webkit-transition: all linear .5s;
+			       -o-transition: all linear .5s;
+			          transition: all linear .5s;
+    		box-shadow: 0 0 25px rgba(0,0,0,.5);
+    	}
+
+    	.bigpic h2 {
+    		margin-top: 0px;
+    	}
+
+	</style>
 	<body>
 		<div>
 			<nav class="navbar navbar-default navbar-fixed-top">
@@ -41,7 +75,7 @@
 					<li><a href="../politics">Politics</a></li>
 					<li><a href="../social">Social</a></li>
 					<li><a href="../money">Money</a></li>
-					<li class = "active"><a href="../science">Science</a></li>
+					<li class ="active"><a href="../science">Science</a></li>
 					<!-- <form class="navbar-left" id="search" role="search"><input type="text" class="search-bar" placeholder="Search"></form>
 					<li><a class="search-button"><span class="glyphicon glyphicon-search search-icon" aria-hidden="true"></span></a></li> -->
 				  </ul>
@@ -49,33 +83,61 @@
 			  </div><!-- /.container-fluid -->
 			</nav>
 
-			<section class="top-story">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-						</div>
-						<div class="col-md-6">
+		<section class="bigpic">
+				<div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="2016/08/naps-allowed-workplace/images/nap-pod.png">
+					<div class="container">
+						<div class="row">
+							<div class = "col-md-12">
+								<div class="bigpic-science">
+									<h2 class="post-title"><a href = "2016/08/naps-allowed-workplace/index.html">Naps Should be Allowed in the Workplace</a></h2>
+									<p class="tldr"><span class = "tldr-heading">too long; didn't read </span>Mid-afternoon drowsiness is part of our natural biological processes, and scientific studies have shown that even a short nap greatly boosts productivity. One study showed that a 26-minute nap improves performance by 34 percent. Although people may face some difficulties when napping at work, those can be easily overcome. The main struggle workers face today with napping at work is that their bosses prohibit it. Just as employers allow lunch and restroom breaks, they need to allow each worker to take a half-hour-maximum nap every day.
+									</p><p class = "caption">Picture: Google's nap-pods have been influential in labeling Google as possibly the most progressive company in America, if not, the world <span class="caption-source"> Keyword Suggestions</span></p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
 			<section class="main">
-				<div class="container thumb-container">
+				<div class="container">
 					<div class="row">
-						<div class="col-sm-3">
-						</div>
+						<div class="col-md-9">
+							
+							<div class="row post-row" data-toggle="collapse" data-target="# ">
+								<div class="col-md-2">
+									<a href = "#"><img src="#" class="img-responsive" /></a>
+								</div>
+								<div class="col-md-10">
+									<div class="post-thumb">
+										<h4><a href = "#" > </a></h4>
+										<ul class="list-inline">
+											<li>Date</li>
+											<li>&#8226;</li>
+											<li>by Author</a></li>
+											<li>&#8226;</li>
+											<li>in <a href="science">Science</a></li>
+											<li>&#8226;</li>
+											<li><a data-target="#" data-toggle = "collapse" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+										</ul>
+										<div id="#" class="collapse">
+											<p> </p>
+											<p><a href="#">Read Article</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
 
-						<div class="col-sm-3">
-						</div>
-
-						<div class="col-sm-3">
-						</div>
-
-						<div class="col-sm-3">
+							<div class="row"><div class="col-md-12"><hr class="hr3" /></div></div>
+					</div>
+					<div class = "row">
+						<div class = "col-md-3">
+							<div class = "ad">Advertisement</div>
+							<hr />
 						</div>
 					</div>
 				</div>
+
 			</section>
 
 			<footer>
@@ -86,9 +148,9 @@
 						</div>
 						<div class="col-md-6">
 							<ul class="list-inline">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="../">Home</a></li>
 								<li><a href="../about">About</a></li>
-								<li><a href="../blog">Blog</a></li>
+								<li><a href="../about">Blog</a></li>
 								<li><a href="../write">Write for us</a></li>
 								<li><a href="../contact">Contact</a></li>
 							</ul>
@@ -99,3 +161,6 @@
 		</div>
 	</body>
 </html>
+
+
+

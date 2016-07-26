@@ -52,3 +52,33 @@ $(window).scroll(function() {
   }
 });
 
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 70) {
+  $('.bigpic-social').css('background','rgba(0,0,0,.9)');
+  } else if ($(document).scrollTop() < 70) {
+    $('.bigpic-social').css('background', 'rgba(0,0,0,.7)');
+  }
+  else {
+  }
+});
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 100) {
+  $('.bigpic-money').css('background','rgba(0,0,0,.9)');
+  } else if ($(document).scrollTop() < 100) {
+    $('.bigpic-money').css('background', 'rgba(0,0,0,.7)');
+  }
+  else {
+  }
+});
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 100) {
+  $('.bigpic-science').css('background','rgba(0,0,0,.9)');
+  } else if ($(document).scrollTop() < 100) {
+    $('.bigpic-science').css('background', 'rgba(0,0,0,.7)');
+  }
+  else {
+  }
+});
+

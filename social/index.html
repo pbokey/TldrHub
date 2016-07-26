@@ -11,7 +11,6 @@
 		
 		<link rel="shortcut icon" href="../images/favicon-new.ico"> 
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
-		<link rel="stylesheet" type="text/css" href="../css/posts.css" />
 		<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Neuton:400,400italic,700' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
@@ -19,8 +18,43 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="../bootstrap/js/bootstrap.min.js"></script>
 		<script src="../js/script.js"></script>
+		<script src = "../js/parallax.min.js"></script>
 
 	</head>
+
+	<script>
+		$('.parallax-window').parallax({imageSrc: '2016/08/an-open-letter/images/rainbow.jpg'});
+	</script>
+
+	<style>
+
+		/*
+		.parallax-window 
+			{
+    			background: url(../images/top-stories/trump-big.jpg) center;
+    			background-size: cover;
+			}
+		*/
+		.bigpic-heading {
+			margin-top:200px;
+		}
+
+		.bigpic-social {
+			margin-top: 250px;
+			margin-bottom: 50px;
+			background: rgba(0,0,0,.7);
+			padding: 20px 25px 20px 25px;
+				-webkit-transition: all linear .5s;
+			       -o-transition: all linear .5s;
+			          transition: all linear .5s;
+    		box-shadow: 0 0 25px rgba(0,0,0,.5);
+    	}
+
+    	.bigpic h2 {
+    		margin-top: 0px;
+    	}
+
+	</style>
 	<body>
 		<div>
 			<nav class="navbar navbar-default navbar-fixed-top">
@@ -49,43 +83,64 @@
 			  </div><!-- /.container-fluid -->
 			</nav>
 
-			<section class="top-story">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<a href="andersonr/an-open-letter.html">
-								<img src="andersonr/rainbow.jpg" class="img-responsive" />
-							</a>
-							<p class="caption">The rainbow-colored flag to represent the pride of the LGBTQ community. <span class="caption-source"> Ludovic Berton/Flickr</span></p>
-						</div>
-						<div class="col-md-6">
-							<h3><a href="andersonr/an-open-letter.html">An Open Letter to Those who Support #HeterosexualPrideDay</a></h3>
-							<h5>August 5th, 2016 - by <span class="author">Reagan Anderson</span></h5>
-							<p class = "tldr">During July, pride month, and in the wake of the mass shooting at a gay nightclub in Orlando, people took to twitter to support a #HeterosexualPrideDay. Why do heterosexuals need a day dedicated to their sexual orientation when they don’t fear for their life because of it? By calling for a #HeterosexualPrideDay, people are erasing the struggles the LGBT community has faced and continues to face.</p>
-							<p class="top-story-read"><a href="andersonr/an-open-letter.html">Read Article</a></p>
+		<section class="bigpic">
+				<div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="2016/08/an-open-letter/images/rainbow.jpg">
+					<div class="container">
+						<div class="row">
+							<!-- <div class = "col-md-6"></div> activate this if you want the tldr:box to be placed on the sides instead of at the bottom-->
+							<div class = "col-md-12">
+								<div class="bigpic-social">
+									<h2 class="post-title"><a href = "2016/08/an-open-letter/index.html">An Open Letter to Those who Support #HeterosexualPrideDay</a></h2>
+									<p class="tldr"><span class = "tldr-heading">too long; didn't read </span>During July, pride month, and in the wake of the mass shooting at a gay nightclub in Orlando, people took to twitter to support a #HeterosexualPrideDay. Why do heterosexuals need a day dedicated to their sexual orientation when they don’t fear for their life because of it? By calling for a #HeterosexualPrideDay, people are erasing the struggles the LGBT community has faced and continues to face.</p>
+									<p class = "caption">Photo: The rainbow-colored flag to represent the pride of the LGBTQ community. <span class="caption-source">Ludovic Berton/Flickr</span></p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
 			<section class="main">
-				<div class="container thumb-container">
+				<div class="container">
 					<div class="row">
-						<div class="col-sm-3">
-						</div>
+						<div class="col-md-9">
+							
+							<div class="row post-row" data-toggle="collapse" data-target="# ">
+								<div class="col-md-2">
+									<a href = "#"><img src="#" class="img-responsive" /></a>
+								</div>
+								<div class="col-md-10">
+									<div class="post-thumb">
+										<h4><a href = "#" > </a></h4>
+										<ul class="list-inline">
+											<li>Date</li>
+											<li>&#8226;</li>
+											<li>by Author</a></li>
+											<li>&#8226;</li>
+											<li>in <a href="money">Social</a></li>
+											<li>&#8226;</li>
+											<li><a data-target="#" data-toggle = "collapse" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+										</ul>
+										<div id="#" class="collapse">
+											<p> </p>
+											<p><a href="#">Read Article</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
 
-						<div class="col-sm-3">
-						</div>
-
-						<div class="col-sm-3">
-						</div>
-
-						<div class="col-sm-3">
+							<div class="row"><div class="col-md-12"><hr class="hr3" /></div></div>
+					</div>
+					<div class = "row">
+						<div class = "col-md-3">
+							<div class = "ad">Advertisement</div>
+							<hr />
 						</div>
 					</div>
 				</div>
+
 			</section>
-			
+
 			<footer>
 				<div class="container">
 					<div class="row">
@@ -94,9 +149,9 @@
 						</div>
 						<div class="col-md-6">
 							<ul class="list-inline">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="../">Home</a></li>
 								<li><a href="../about">About</a></li>
-								<li><a href="../blog">Blog</a></li>
+								<li><a href="../about">Blog</a></li>
 								<li><a href="../write">Write for us</a></li>
 								<li><a href="../contact">Contact</a></li>
 							</ul>
@@ -105,7 +160,8 @@
 				</div>
 			</footer>
 		</div>
-	</section>
-</div>
-</body>
+	</body>
 </html>
+
+
+
