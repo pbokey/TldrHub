@@ -38,6 +38,28 @@
 	margin: 5px 0;
 }
 
+.datetime {
+	text-align:right;
+}
+
+.datetime a{
+	color:green;
+	pointer-events:none;
+}
+
+@media (max-width: 767px) {
+	.author-link {
+		margin-top: 15px;
+	}
+	.datetime {
+		text-align: left;
+		margin-top: 25px;
+	}
+	.author-link h4 {
+		padding-top: 5px;
+	}
+}
+
 .author-link  h4{
 	font-family: "Work Sans";
 	font-size: 1.2em;
@@ -56,6 +78,7 @@
 	color: #777;
 	font-weight: normal;
 }
+
 
 .tldr {
 	font-size: 1.25em;
@@ -198,6 +221,10 @@
        -o-transition: all linear .5s;
           transition: all linear .5s;
     box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+@media (max-width: 767px) {
+	.bigpic-heading {margin-top: 80px;}
 }
 
 .bigpic-heading:hover {
