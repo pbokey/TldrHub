@@ -613,3 +613,69 @@ p .view a {
 }
 
 
+
+
+
+.parallax-window {
+    background: url(../images/top-stories/trump-big.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bigpic-heading1 {
+	margin-top:25px;
+	margin-bottom: 25px;
+	background: rgba(0,0,0,.7);
+	padding: 25px 30px;
+	-webkit-transition: all linear .5s;
+       -o-transition: all linear .5s;
+          transition: all linear .5s;
+    box-shadow: 0 0 25px rgba(0,0,0,.5);
+}
+
+.bigpic-heading1:hover {
+	background: rgba(0,0,0,.9);
+}
+
+.bigpic-heading:hover h3 a:hover, .bigpic-heading:hover p:hover {
+	text-decoration: none;
+}
+
+.bigpic h3 {
+	color: white;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+.top-story-bigpic {
+	padding: 30px 0;
+	background: #dfdfdf;
+	box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+.bigpic-post {
+	box-shadow: 0 0 15px rgba(0,0,0,.5);
+}
+
+.bigpic p {
+	font-family: "Work Sans";
+	font-weight: 300;
+	font-size: 15px;
+	color: white;
+}
+
+.bigpic .caption {
+	font-size: 14px;
+	margin-top: 20px;
+	letter-spacing: 0;
+}
+
+.post-pic {
+	margin-bottom: 20px;
+	-webkit-transition: all linear .3s;
+       -o-transition: all linear .3s;
+          transition: all linear .3s;
+}
+
+.post-pic:hover {
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
