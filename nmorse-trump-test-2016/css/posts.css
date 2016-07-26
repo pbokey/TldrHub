@@ -70,6 +70,16 @@
 	letter-spacing: -1px;
 }
 
+.tldr-heading {
+	font-weight: 650;
+	font-size: 20px;
+	color: rgba(95, 231, 102, 1);
+	/*rgba(95, 231, 102, 1) secondary color */
+	margin-top: 0;
+	padding-top: 0;
+	letter-spacing: -1px;
+}
+
 .center {
 	padding-top: 10px;
 	text-align:center;
