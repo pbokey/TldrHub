@@ -101,9 +101,9 @@ a:hover {
 }
 
 .logo-img {
-	-webkit-transition: all ease-in-out .5s;
-       -o-transition: all ease-in-out .5s;
-          transition: all ease-in-out .5s;
+	-webkit-transition: all ease-in-out .3s;
+       -o-transition: all ease-in-out .3s;
+          transition: all ease-in-out .3s;
 }
 
 .logo-on img {
