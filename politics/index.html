@@ -11,7 +11,6 @@
 		
 		<link rel="shortcut icon" href="favicon-new.ico"> 
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
-		<link rel="stylesheet" type="text/css" href="../css/posts.css" />
 		<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Neuton:400,400italic,700' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
@@ -19,8 +18,43 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="../bootstrap/js/bootstrap.min.js"></script>
 		<script src="../js/script.js"></script>
+		<script src = "../js/parallax.min.js"></script>
 
 	</head>
+
+	<script>
+		$('.parallax-window').parallax({imageSrc: '../images/top-stories/trump-big.jpg'});
+	</script>
+
+	<style>
+
+		/*
+		.parallax-window 
+			{
+    			background: url(../images/top-stories/trump-big.jpg) center;
+    			background-size: cover;
+			}
+		*/
+		.bigpic-heading {
+			margin-top:200px;
+		}
+
+		.bigpic-politics {
+			margin-top: 300px;
+			margin-bottom: 50px;
+			background: rgba(0,0,0,.7);
+			padding: 20px 25px 20px 25px;
+				-webkit-transition: all linear .5s;
+			       -o-transition: all linear .5s;
+			          transition: all linear .5s;
+    		box-shadow: 0 0 25px rgba(0,0,0,.5);
+    	}
+
+    	.bigpic h2 {
+    		margin-top: 0px;
+    	}
+
+	</style>
 	<body>
 		<div>
 			<nav class="navbar navbar-default navbar-fixed-top">
@@ -49,20 +83,18 @@
 			  </div><!-- /.container-fluid -->
 			</nav>
 
-			<section class="top-story">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<a href="nmorse/2016-05-22-trump.html">
-								<img src="../images/top-stories/trump.jpg" class="img-responsive" />
-							</a>
-							<p class="caption">Donald Trump raises his arm to demonstrate fellatio. <span class="caption-source">Getty Images</span></p>
-						</div>
-						<div class="col-md-6">
-							<h3><a href="nmorse/2016-05-22-trump.html">Breaking: Scientists upgrade Trump from Asshole to Superasshole</a></h3>
-							<h5>May 22, 2016 - by <span class="author">Nathan Morse</span></h5>
-							<p><span class="city">Washington, DC &mdash;</span> The American Political Science Association (APSA) commenced its annual convention yesterday, and experts voted earlier this morning to upgrade Donald J. Trump from “Asshole” status to “Superasshole” status. The APSA has scales on which it ranks each major political figure based on political ideology, success, and character, as determined by a majority vote of the members present at the convention. The “character” scale ranges from “Sweet Old Man” to “Superasshole.” Trump is now the first political figure in APSA history to receive a status of “Superasshole.” Senator Bernie Sanders is the currently the only politician with “Sweet Old Man” status.</p>
-							<p class="top-story-read"><a href="nmorse/2016-05-22-trump.html">Read Article</a></p>
+		<section class="bigpic">
+				<div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="../images/top-stories/trump-big.jpg">
+					<div class="container">
+						<div class="row">
+							<div class = "col-md-6"></div>
+							<div class = "col-md-6">
+								<div class="bigpic-politics">
+									<h2 class="post-title"><a href = "nmorse/2016-07-25-trump.html">Trump is the Least Popular GOP Nominee in Modern History</a></h2>
+									<p class="tldr"><span class = "tldr-heading">too long; didn't read </span>While Trump did in fact receive more votes in Republican primaries than any nominee in history, this statistic is dangerously misleading because voter turnout was also at a record high. Trump only received 45% of the vote, making him the least popular GOP nominee in modern history. In the context of the last few decades, though, this could just indicate party disunity. Democrats have had different trends that are harder to decipher. Regardless, this will be one of the most important elections in U.S. history.</p>
+									<p class = "caption">Photo: Trump greets supporters at a campaign stop in Florence, SC. <span class="caption-source">Trump Campaign</span></p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -75,7 +107,7 @@
 							
 							<div class="row post-row" data-toggle="collapse" data-target="#2015-05-22-clinton">
 								<div class="col-md-2">
-									<a href = "politics/nmorse/2016-05-22-clinton.html" ><img src="../images/thumbs/hillary.jpg" class="img-responsive" /></a>
+									<a href = "nmorse/2016-05-22-clinton.html"><img src="../images/thumbs/hillary.jpg" class="img-responsive" /></a>
 								</div>
 								<div class="col-md-10">
 									<div class="post-thumb">

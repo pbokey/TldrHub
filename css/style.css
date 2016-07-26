@@ -41,6 +41,8 @@ p {font-family: "Neuton"; font-size: 1.1em; font-weight: 400; line-height: 1.3em
 .caption {font-family: "Work Sans"; color: #777; letter-spacing: -.5px; line-height: 1.1em; font-size: 1em;}
 .caption-source {text-transform: uppercase; font-weight: bold; color: #aaa;}
 
+.top-story-bigpic a {color:rgba(95, 231, 102, 1);}
+
 h2 {letter-spacing: -2px;}
 
 a {
@@ -214,7 +216,7 @@ a:hover {
 	margin: 0 auto;
 }
 
-.homepage .top-story {
+.homepage {
 	padding-top: 25px;
 }
 
@@ -613,14 +615,6 @@ p .view a {
 }
 
 
-
-
-
-.parallax-window {
-    background: url(../images/top-stories/trump-big.jpg) center no-repeat;
-    background-size: cover;
-}
-
 .bigpic-heading1 {
 	margin-top:25px;
 	margin-bottom: 25px;
@@ -646,9 +640,20 @@ p .view a {
 	margin-top: 0;
 }
 
+.post-title a{
+	text-decoration: none;
+	color:white;
+	font: "Work Sans";
+}
+
+.post-title a:hover {
+	text-decoration: white;
+	color:white;
+}
+
 .top-story-bigpic {
-	padding: 30px 0;
-	background: #dfdfdf;
+	padding: 5px 0;
+	background: 
 	box-shadow: 0 0 15px rgba(0,0,0,.5);
 }
 
@@ -665,7 +670,7 @@ p .view a {
 
 .bigpic .caption {
 	font-size: 14px;
-	margin-top: 20px;
+	margin-top: 10px;
 	letter-spacing: 0;
 }
 
@@ -678,4 +683,24 @@ p .view a {
 
 .post-pic:hover {
 	box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+
+.tldr-heading {
+	font-weight: 300;
+	font-size: 15px;
+	color: rgba(95, 231, 102, 1);
+	/*rgba(95, 231, 102, 1) secondary color */
+	margin-top: 0;
+	padding-top: 0;
+	letter-spacing: -1px;
+}
+
+.tldr a:hover {
+	color:white;
+	text-decoration: 
+}
+
+.tldr a {
+	color:white;
+	text-decoration: none;
 }

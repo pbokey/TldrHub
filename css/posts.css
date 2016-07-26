@@ -57,19 +57,6 @@
 	font-weight: normal;
 }
 
-.tldr {
-	font-size: 18px;
-}
-
-.tldr-title {
-	font-weight: 400;
-	font-size: 20px;
-	color: green;
-	margin-top: 0;
-	padding-top: 0;
-	letter-spacing: -1px;
-}
-
 .center {
 	padding-top: 10px;
 	text-align:center;
@@ -246,4 +233,8 @@
 
 .post-pic:hover {
 	box-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+
+.tldr-title {
+	color:#68b16c;
 }

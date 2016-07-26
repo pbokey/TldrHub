@@ -39,5 +39,16 @@ $(window).scroll(function() {
   }
   else {
   }
+
+});
+
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 120) {
+  $('.bigpic-politics').css('background','rgba(0,0,0,.9)');
+  } else if ($(document).scrollTop() < 120) {
+    $('.bigpic-politics').css('background', 'rgba(0,0,0,.7)');
+  }
+  else {
+  }
 });
 
