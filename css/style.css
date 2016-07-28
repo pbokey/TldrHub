@@ -524,10 +524,10 @@ html, body {
 }
 
 .fill {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    overflow:hidden
+	display        :flex;
+	justify-content:center;
+	align-items    :center;
+	overflow       :hidden
 }
 .fill img {
     flex-shrink:0;
@@ -644,7 +644,7 @@ p .view a {
 	text-decoration: none;
 	color:white;
 	font: "Work Sans";
-}
+	}
 
 .post-title a:hover {
 	text-decoration: white;
