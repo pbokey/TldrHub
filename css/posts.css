@@ -219,6 +219,7 @@
 .datetime{
 	text-align:right;
 }
+
 .datetime a{
 	color:green;
 	pointer-events:none;
