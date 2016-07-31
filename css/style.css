@@ -409,7 +409,10 @@ a:hover {
 	text-transform: uppercase;
 }
 
+.post-thumb p {
+	margin-top: 10px;
 }
+
 .post-thumb p a {
 	font-weight: bold;
 }
@@ -654,7 +657,6 @@ p .view a {
 	color:black;
 }
 
-
 .bigpic-heading1 {
 	margin-top        :25px;
 	margin-bottom     : 25px;
@@ -709,7 +711,7 @@ p .view a {
 }
 
 .bigpic .caption {
-	font-size: 10px;
+	font-size: 12px;
 	margin-top: 10px;
 	letter-spacing: 0;
 }
@@ -791,6 +793,6 @@ p .view a {
 
 .disclaimer {
 	font-family: "Work Sans";
-	font-size: 10px;
+	font-size: 13px;
 	margin-top:0px;
 }
