@@ -23,6 +23,15 @@
 
 		<script>
 			$('.parallax-window').parallax({imageSrc: 'images/top-stories/trump-big.jpg'});
+
+			$(windows).resize(function(){
+		        if ($(window).width() < $('.post-thumb').width(50)){
+		            $('.container').css('position', 'static');
+		        }
+		        else{
+		            $('.post-thumb').css('position', 'fixed');
+		        }
+		    });
 		</script>
 		
 	</head>
@@ -45,42 +54,42 @@
 		  display: inline;
 		}
 
-		#maincont a
-		{
+		#maincont a {
 			background: #B8DBBA;
 			text-decoration: none;
-			color: #71A874;
-			padding: 5px 25px;
-			border: 1px solid #7FB582;
+			color: #4F8C52;
+			padding: 5px 15px;
+			border: 1px solid #4F8C52;
 			transition: all .2s ease-in;
-			font-size: 20px;
 			text-transform: uppercase;
-			letter-spacing: 1px;
+			letter-spacing: .01em;
+			font-size: 20px;
 			font-weight: bold;
 		}
 
 		#maincont a:hover
 		{
-			color: #2F6932;
-			border: 1px solid #2F6932;
+			background: #BCE0BF;
+			color: #1E5721;
+			border: 1px solid #1E5721;
 		}
 
 		.parallax-window 
-			{
-    			background: url(images/top-stories/trump-big.jpg) center no-repeat;
-    			background-size: cover;
-			}
+		{
+    		background: url(images/top-stories/trump-big.jpg) center no-repeat;
+    		background-size: cover;
+		}
 
 		.bigpic-heading1 {
-				margin-top:25px;
-				margin-bottom: 25px;
-				background: rgba(0,0,0,.7);
-				padding: 25px 30px;
-					-webkit-transition: all linear .5s;
-			       -o-transition: all linear .5s;
-			          transition: all linear .5s;
-    			box-shadow: 0 0 25px rgba(0,0,0,.5);
-    		}
+			margin-top:25px;
+			margin-bottom: 25px;
+			background: rgba(0,0,0,.7);
+			padding: 25px 30px;
+			-webkit-transition: all linear .5s;
+		         -o-transition: all linear .5s;
+		            transition: all linear .5s;
+    		box-shadow: 0 0 25px rgba(0,0,0,.5);
+    	}
 	</style>
 	<body>
 		<div class="homepage">
@@ -122,10 +131,10 @@
 			</nav>
 
 			<section class="info">
-				<div class="container">
-					<div class="row">
+				<div class="container-fluid">
+					<div class="row-fluid">
 						<div class="col-md-12 info-banner">
-							<div id="maincont" class="bodycontainer clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 200, repeat: false}">
+							<div id="maincont" class="container clearfix" data-uk-scrollspy="{cls:'uk-animation-fade', delay: 200, repeat: false}">
 								<p class="main-summary"><strong>Good writing can impact the world.</strong><br /> TldrHub is a news platform where millennials can help each other understand the world. Every day we hear about events and problems, but no one really knows what to do. At TldrHub, we publish articles from many perspectives, not just one side. We are tired of other outlets shoving their agendas down our throats and not letting us decide our own positions for ourselves. TldrHub is a place where the new generation of writers and thinkers can come together and debate and share articles and their views on current events and other investigative reports. <strong>Feel Free, Feel Safe.</strong></p>
 								<br />
 								<h2 class = "style2"><a href = "https://form.jotform.com/61472819206154" target="_blank">Write for us</a></h2>
@@ -138,11 +147,11 @@
 			<section class="bigpic">
 				<div class="container-fluid parallax-window">
 					<div class="container">
-						<div class="row">
+						<div class="row-fluid">
 							<div class="col-md-6"></div>
 							<div class="col-md-6">
 								<div class="bigpic-heading1">
-									<h3 class="post-title"><a href = "politics/2016/08/trump-gop-nominee/index.html">Trump is the Least Popular GOP Nominee in Modern History</a></h3>
+									<h3 class="post-title"><a href = "politics/2016/08/trump-gop-nominee">Trump is the Least Popular GOP Nominee in Modern History</a></h3>
 									<p class="tldr"><span class ="tldr-heading">too long; didn't read: </span>While Trump did in fact receive more votes in Republican primaries than any nominee in history, this statistic is dangerously misleading because voter turnout was also at a record high. Trump only received 45% of the vote, making him the least popular GOP nominee in modern history. In the context of the last few decades, though, this could just indicate party disunity. Democrats have had different trends that are harder to decipher. Regardless, this will be one of the most important elections in U.S. history.</a></p>
 									<p class = "caption">Photo: Trump greets supporters at a campaign stop in Florence, SC. <span class="caption-source">Trump Campaign</span></p>
 								</div>
@@ -151,52 +160,93 @@
 					</div>
 				</div>
 			</section>
-			
+			<!-- This will be hidden when we do not have any announcements -->
+			<section class = "announcements">
+				<div class="container-fluid">
+					<div class="row-fluid">
+						<div class="col-md-12">
+							<h3>Announcements</h3>
+							<div class="row"><div class="col-md-12"><hr class="hr5" /></div></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		
 			<section class="main">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-9">
-							
-							<div class="row post-row" data-toggle="collapse" data-target="#2015-05-27-apple" >
-								<div class="col-md-2">
-									<a data-toggle="collapse" data-target="#2015-05-27-apple"><img src="money/2016/08/buy-apple-stock/images/apple.jpg" class="img-responsive" /> </a>
-								</div>
-								<div class="col-md-10">
-									<div class="post-thumb">
-										<h4><a href = "money/2016/08/buy-apple-stock/index.html">Why Apple Inc Stock is a GREAT Buy</a></h4>
-										<br />
-										<ul class="list-inline">
-											<li>August 5th, 2016</li>
-											<li>&#8226;</li>
-											<li>by Pranav Bokey</a></li>
-											<li>&#8226;</li>
-											<li>in <a href="money">Money</a></li>
-											<li>&#8226;</li>
-											<li><a data-toggle = "collapse" data-target = "2015-05-27-apple" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
-										</ul>
-										<div class="collapse" id="2015-05-27-apple">
-											<p>Apple may not have met its target for Quarter 1 of 2016, but I suggest to go long on Apple Inc., which closed at $100.35 today, because of its future in India's smartphone market, which if approved my Modi will see Apple increase revenues substantially.</p>
-											<p><a href="money/2016/08/buy-apple-stock/index.html">Read Article</a></p>
+						<div class="col-md-12">
+							<h3>Recent</h3>
+							<div class="row"><div class="col-md-12"><hr class="hr5" /></div></div>
+
+							<div class = "col-md-9">
+								<div class="row post-row" data-toggle="collapse" data-target="#bokeyp-apple-stock" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#2015-05-27-apple"><img src="money/2016/08/buy-apple-stock/images/apple-thumb.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "money/2016/08/buy-apple-stock">Why Apple Inc Stock is a GREAT Buy</a></h4>
+											<ul class="list-inline">
+												<li>August 5th, 2016</li>
+												<li>&#8226;</li>
+												<li>by Pranav Bokey</a></li>
+												<li>&#8226;</li>
+												<li>in <a href="money">Money</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "bokeyp-apple-stock" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="bokeyp-apple-stock">
+												<p>Apple may not have met its target for Quarter 1 of 2016, but I suggest to go long on Apple Inc., which closed at $100.35 today, because of its future in India's smartphone market, which if approved my Modi will see Apple increase revenues substantially.</p>
+												<p><a href="money/2016/08/buy-apple-stock/index.html">Read Article</a></p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							
-							<div class="row"><div class="col-md-12"><hr class="hr3" /></div></div>
-							
-							<div class="row bottom-nav">
-								<div class="col-md-6">
-	
-								</div>
-								<div class="col-md-6 bottom-nav-next">
-									<a href="#">Previous &raquo;
-								</div>
+							<div class = "col-md-3">
+								<div class="ad" style="margin-top: 0px; margin-top: 0px; padding-top: 30px; padding-bottom: 30px">Advertisement</div>
 							</div>
 							
-						</div>
-						<div class="col-md-3">
-							<div class="ad" style="margin-top: 0;">Advertisement</div>
-							<hr />
+							<div class="row"><div class="col-md-12"><hr class="hr8" /></div></div>
+
+
+							<div class = "col-md-9">
+								<div class="row post-row" data-toggle="collapse" data-target="#andersonr-an-open-letter" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#andersonr-an-open-letter"><img src="social/2016/08/an-open-letter/images/rainbow-thumb.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "social/2016/08/an-open-letter">An Open Letter to Those who Support #HeterosexualPrideDay</a></h4>
+											<ul class="list-inline">
+												<li>August 5th, 2016</li>
+												<li>&#8226;</li>
+												<li>by Reagan Anderson</a></li>
+												<li>&#8226;</li>
+												<li>in <a href="Social">Social</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "andersonr-an-open-letter" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="andersonr-an-open-letter">
+												<p>During July, pride month, and in the wake of the mass shooting at a gay nightclub in Orlando, people took to twitter to support a #HeterosexualPrideDay. Why do heterosexuals need a day dedicated to their sexual orientation when they don’t fear for their life because of it? By calling for a #HeterosexualPrideDay, people are erasing the struggles the LGBT community has faced and continues to face.</p>
+												<p><a href="money/2016/08/buy-apple-stock/index.html">Read Article</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class = "col-md-3">
+								<div class="ad" style="margin-top: 0px; margin-top: 0px; padding-top: 30px; padding-bottom: 30px">Advertisement</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<hr class="hr6" />
+									<p class = disclaimer>
+										The views in these articles are those of the writers and not of TldrHub Media.
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -206,7 +256,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-6">
-							<p style="float: left;">&copy; Copyright 2016 by TldrHub, LLC.</p>
+							<p style="float: left;">&copy; Copyright 2016 by TldrHub Media.</p>
 						</div>
 						<div class="col-md-6">
 							<ul class="list-inline">
