@@ -334,6 +334,7 @@ a:hover {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
     margin-top:2px;
+    margin-bottom:15px;
 }
 
 .hr6 {
@@ -350,6 +351,7 @@ a:hover {
 }
 
 .hr8{
+	margin-top:15px;
 
 }
 .main h4 {
@@ -498,7 +500,9 @@ footer ul li a:hover {
 	font-size: 13px;
 	letter-spacing: .5px;
 	margin: 0px 0;
+	display:none;
 }
+
 
 .about-img {
 	background: url(../images/site/about.jpg);
