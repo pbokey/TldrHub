@@ -726,6 +726,10 @@ p .view a {
 	letter-spacing: 0;
 }
 
+.post-info {
+	margin-bottom: 15px;
+}
+
 .post-pic {
 	margin-bottom: 20px;
 	-webkit-transition: all linear .3s;
