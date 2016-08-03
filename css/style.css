@@ -95,6 +95,8 @@ a:hover {
 	.shrink .logo-img {width: 95px;}
 	.logo-politics, .logo-finance {width: 200px;}
 	.shrink .logo-politics, .shrink .logo-finance {width: 130px;}
+	.logo-social {width: 180px;}
+	.shrink .logo-social {width: 115px;}
 }
 
 @media (max-width: 767px) {
