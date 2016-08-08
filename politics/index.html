@@ -9,7 +9,7 @@
 		<meta name="description" content="Politics in a New Way" />
 		<meta name="keywords" content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" />
 		
-		<link rel="shortcut icon" href="favicon-new.ico"> 
+		<link rel="shortcut icon" href="../images/favicon-new.ico"> 
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
 		<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,700|Neuton:400,400italic,700' rel='stylesheet' type='text/css'>
 		
@@ -55,7 +55,7 @@
     	}
 
 	</style>
-	<body>
+	<body id = start>
 		<div>
 			<nav class="navbar navbar-default navbar-fixed-top">
 			  <div class="container">
@@ -84,7 +84,7 @@
 			  </div><!-- /.container-fluid -->
 			</nav>
 
-		<section class="bigpic">
+			<section class="bigpic">
 				<div class="container-fluid parallax-window" data-parallax="scroll" data-image-src="../images/top-stories/trump-big.jpg">
 					<div class="container">
 						<div class="row">
@@ -109,99 +109,254 @@
 							<h3 class="recent">Recent</h3>
 							<div class="row"><div class="col-md-12"><hr class="hr5" /></div></div>
 
-							<div class="row post-row" data-toggle="collapse" data-target="#competition" >
-								<div class="col-md-2">
-									<a data-toggle="collapse" data-target="#competition"><img src=" " class="img-responsive" /> </a>
+							<div id="scroll-container">
+								<div id = loader></div>
+
+								<div class="row post-row" data-toggle="collapse" data-target="#weekend" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#weekend" ><img src="2016/08/weekend-at-bernie/images/photo1.jpg" class="img-responsive"/> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "2016/08/weekend-at-bernie">A Weekend at Bernie's Nightmarish Hellscape</a></h4>
+											<ul class="list-inline">
+												<li>August 7, 2016</li>
+												<li>&#8226;</li>
+												<li>by Elysse Vernon</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "#weekend" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="weekend">
+												<p>I’m a liberal, vegetarian, feminist, and former Bernie Sanders campaigner. Possibly the definition of what some might consider an SJW, or social justice warrior. As such, a conservative political summer camp wouldn’t exactly be my scene. But after spending my summer playing volleyball, making late night ice cream runs, listening to conservative guest speakers, and debating my newly-found Republican friends, I came to a realization — friendship is, or at least should be, a bipartisan relationship. Acceptance doesn’t constitute agreement, but it demonstrates willingness to listen to all sides of an issue, and that is the mark of maturity.</p>
+												<p><a href="2016/08/weekend-at-bernie">Read Article</a></p>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="col-md-10">
-									<div class="post-thumb">
-										<h4><a href = "2016/08/comp-is-healthy">Competition is Healthy, but Individual Freedom is Healthier</a></h4>
-										<ul class="list-inline">
-											<li>August 5th</li>
-											<li>&#8226;</li>
-											<li>by Graham Boone</a></li>
-											<li>&#8226;</li>
-											<li><a data-toggle = "collapse" data-target = "#competition" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
-										</ul>
-										<div class="collapse" id="competition">
-											<p>Contrary to Clinton’s beliefs, affordable healthcare is a privilege, not a human right. We’ve grown accustomed to the vast treatments at our disposal, but that doesn’t make it a “right.” Healthcare must be approached as an industry in which services and products are provided for a profit. It isn’t the government’s place to protect consumers from price changes. This may be inconvenient in the short run, but it aides in long-term progress and price. Right now, we’re in an awkward mix between free market development and government intervention—the worst place to be. </p>
-											<p><a href="2016/08/comp-is-good">Read Article</a></p>
+
+								<hr class = hr8 />
+
+								<div class="row post-row" data-toggle="collapse" data-target="#white-on-white" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#white-on-white"><img src=" 2016/08/white-on-white/images/photo1.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "2016/08/white-on-white">The Unknown Epidemic of White-on-White Crime</a></h4>
+											<ul class="list-inline">
+												<li>August 5, 2016</li>
+												<li>&#8226;</li>
+												<li>by Irfan Kovankaya</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "#white-on-white" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="white-on-white">
+												<p>As tensions between civilians and police departments grow, accusations and blame are plentiful while solutions are few. Many, like Fox News pundit Bill O’Reilly, have cited black-on-black crime and “black culture” as the true culprit. This takes the focus away from police brutality to the supposed innate savagery of African Americans. But there’s been no mention of “white-on-white” crime. Because both “white-on-white” and “black-on-black” crime is simply crime. Poor whites and poor blacks commit roughly the same amount of crimes. The only reason they usually commit these against their own group is because they live around each other.</p>
+												<p><a href="2016/08/white-on-white">Read Article</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<hr class = hr8 />
+
+								<div class="row post-row" data-toggle="collapse" data-target="#competition" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#competition"><img src=" 2016/08/comp-is-healthy/images/photo1.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "2016/08/comp-is-healthy">Competition is Healthy, but Individual Freedom is Healthier</a></h4>
+											<ul class="list-inline">
+												<li>August 5, 2016</li>
+												<li>&#8226;</li>
+												<li>by Graham Boone</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "#competition" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="competition">
+												<p>Contrary to Clinton’s beliefs, affordable healthcare is a privilege, not a human right. We’ve grown accustomed to the vast treatments at our disposal, but that doesn’t make it a “right.” Healthcare must be approached as an industry in which services and products are provided for a profit. It isn’t the government’s place to protect consumers from price changes. This may be inconvenient in the short run, but it aides in long-term progress and price. Right now, we’re in an awkward mix between free market development and government intervention—the worst place to be. </p>
+												<p><a href="2016/08/comp-is-good">Read Article</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<hr class = hr8 />
+
+								<div class="row post-row" data-toggle="collapse" data-target="#paul-ryan" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#paul-ryan"><img src="2016/08/paul-ryan/images/photo1.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "2016/08/paul-ryan">Why I Love Paul Ryan</a></h4>
+											<ul class="list-inline">
+												<li>August 5, 2016</li>
+												<li>&#8226;</li>
+												<li>by Haley Brockway</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "#paul-ryan" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="paul-ryan">
+												<p>Paul Ryan has become both an inspiration and a role model for politicians and the general public. Finding politicians with both integrity and honesty is so rare that Ryan is a breath of fresh air to many who are tired of the corruption in Washington. Paul Ryan has become a unifying face of the Republican party while reflecting bravery, family values, and being a  prime example of a public servant who not only serves but understands the common people.</p>
+												<p><a href="2016/08/paul-ryan">Read Article</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<hr class = hr8 />
+
+								<div class="row post-row" data-toggle="collapse" data-target="#way-to-united" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#way-to-united"><img src="2016/08/way-to-united/images/photo1.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "2016/08/way-to-united">Bipartisanship: The Way to a “United” States of America</a></h4>
+											<ul class="list-inline">
+												<li>August 5, 2016</li>
+												<li>&#8226;</li>
+												<li>by Carlton DiSalvo</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "#way-to-united" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="way-to-united">
+												<p>Party politics has divided us as a nation. We’ve strayed from the vision of George Washington, who employed a split cabinet so all opinions could be heard. Partisanship has permeated our media, and moderate candidates have become rare. Political parties have their place — allowing like-minded individuals to come together and to voice their opinions — but they have made us lazy and forced us to not even consider the stances of a different party. Big money in politics has made politicians slaves to extreme party ideology and lobbyists. We must focus on bipartisan issues to create a stronger, more “united” America.</p>
+												<p><a href="2016/08/way-to-united">Read Article</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<hr class = hr8 />
+
+								<div class="row post-row" data-toggle="collapse" data-target="#orlando-shooting" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#orlando-shooting"><img src="2016/08/orlando-shooting/images/photo1.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "2016/08/orlando-shooting">The Orlando Shooting: All Politics Aside</a></h4>
+											<ul class="list-inline">
+												<li>August 5, 2016</li>
+												<li>&#8226;</li>
+												<li>by Irfan Kovankaya</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "#orlando-shooting" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="orlando-shooting">
+												<p>Following the Orlando shooting, I saw mourning, ignorance, and bigotry. I witnessed multiple communities being placed into the “other” category as whole cities split along divisions such as race, religion, skin color, and party affiliation. Despite differences, it was the people who had the biggest excuse to discriminate and demonize that chose to embrace those differences and come together as a community. The entire Orlando community came together to aid the victims. If multiple communities within Orlando who are seemingly so different can come together, why can’t politicians?</p>
+												<p><a href="2016/08/orlando-shooting">Read Article</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+									<hr class = hr8 />
+
+									<div class="row post-row" data-toggle="collapse" data-target="#non-political-politics" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#non-political-politics"><img src="2016/08/non-political-politics/images/photo1.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "2016/08/non-political-politics">A Non-Political Take on Politics</a></h4>
+											<ul class="list-inline">
+												<li>August 5, 2016</li>
+												<li>&#8226;</li>
+												<li>by Emily Case</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "#non-political-politics" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="non-political-politics">
+												<p>I can’t tell you much about the detailed policies of the 2016 presidential candidates, but I can chime in on the image that the candidates are painting for themselves and the United States through their social presences, and how that image will affect our country. Trump has portrayed himself as childish and racist, while Clinton has come off as untrustworthy and out-of-touch. Going into this election, we need to seriously consider the character of our candidates when voting.</p>
+												<p><a href="2016/08/non-political-politics">Read Article</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<hr class = hr8 />
+
+								<div class="row post-row" data-toggle="collapse" data-target="#revenge-porn" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#revenge-porn" ><img src="2016/08/revenge-porn/images/photo1.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "2016/08/revenge-porn">Florida’s “Revenge Porn” Law Ensures Risk for Both Victims and Perpetrators</a></h4>
+											<ul class="list-inline">
+												<li>August 5, 2016</li>
+												<li>&#8226;</li>
+												<li>by Jackie Weinell</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "#revenge-porn" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="revenge-porn">
+												<p>Last October, Florida passed a law criminalizing revenge porn to prevent people from posting sexually explicit images of others online. However, the law is too specific for many offenders to actually be convicted. Some argue this law is a violation of free speech and doesn’t distinguish pornography from images of breastfeeding or nudity in textbooks. Others say it doesn’t suppress free speech because it protects victims from emotional distress, and the law is specific enough to exclude protected materials. Regardless, this controversial law or similar legislation will likely be considered by the Supreme Court. </p>
+												<p><a href="2016/08/revenge-porn">Read Article</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<hr class = hr8 />
+
+								<div class="row post-row" data-toggle="collapse" data-target="#west-caused-isis" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#west-caused-isis" ><img src="2016/08/west-caused-isis/images/photo1.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "2016/08/west-caused-isis">How the West Caused the Rise of ISIS</a></h4>
+											<ul class="list-inline">
+												<li>August 5, 2016</li>
+												<li>&#8226;</li>
+												<li>by Byron Solis</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "#west-caused-isis" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="west-caused-isis">
+												<p>We rarely go a week without hearing a story of an attack either inspired or carried out by the Islamic State. Despite all the coverage, there’s still a general lack of understanding on ISIS’s roots. The United States and the Western Coalition’s invasion of Iraq in 2003 toppled the Sunni government, which led to resentful Sunnis forming the extremist group Al-Qaeda. Upon the Arab Spring uprisings, Al-Qaeda in Iraq allied themselves with the Syrian rebels. The members left Al-Qaeda and rebranded themselves as the Islamic State in Iraq and Syria. </p>
+												<p><a href="2016/08/west-caused-isis">Read Article</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<hr class = hr8 />
+
+								<div class="row post-row" data-toggle="collapse" data-target="#case-for-clinton" >
+									<div class="col-md-2">
+										<a data-toggle="collapse" data-target="#case-for-clinton" ><img src="2016/08/case-for-clinton/images/photo1.jpg" class="img-responsive" /> </a>
+									</div>
+									<div class="col-md-10">
+										<div class="post-thumb">
+											<h4><a href = "2016/08/case-for-clinton">A Case for Clinton</a></h4>
+											<ul class="list-inline">
+												<li>August 5, 2016</li>
+												<li>&#8226;</li>
+												<li>by Joshua Paredes</a></li>
+												<li>&#8226;</li>
+												<li><a data-toggle = "collapse" data-target = "#case-for-clinton" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
+											</ul>
+											<div class="collapse" id="case-for-clinton">
+												<p>Despite being an avid Bernie Sanders supporter, I’ll still be voting for Hillary Clinton. Trump’s xenophobic statements and policies reflect his lack of qualifications for the presidency. Clinton’s policies align with Bernie’s, and a Republican supermajority would undo the progress under the Obama Administration. A third-party candidate such a Jill Stein would not win. Clinton may not create a political revolution, but she would add to current progress. We must unify as a party to defeat Donald Trump. We must put aside idealism for pragmatism.</p>
+												<p><a href="2016/08/case-for-clinton">Read Article</a></p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 
-							<hr class = hr8 />
-
-							<div class="row post-row" data-toggle="collapse" data-target="#paul-ryan" >
-								<div class="col-md-2">
-									<a data-toggle="collapse" data-target="#paul-ryan"><img src="2016/08/paul-ryan/images/photo1.jpg" class="img-responsive" /> </a>
-								</div>
-								<div class="col-md-10">
-									<div class="post-thumb">
-										<h4><a href = "2016/08/paul-ryan">Why I Love Paul Ryan</a></h4>
-										<ul class="list-inline">
-											<li>August 5th</li>
-											<li>&#8226;</li>
-											<li>by Haley Brockway</a></li>
-											<li>&#8226;</li>
-											<li><a data-toggle = "collapse" data-target = "#paul-ryan" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
-										</ul>
-										<div class="collapse" id="paul-ryan">
-											<p>Paul Ryan has become both an inspiration and a role model for politicians and the general public. Finding politicians with both integrity and honesty is so rare that Ryan is a breath of fresh air to many who are tired of the corruption in Washington. Paul Ryan has become a unifying face of the Republican party while reflecting bravery, family values, and being a  prime example of a public servant who not only serves but understands the common people.</p>
-											<p><a href="2016/08/paul-ryan">Read Article</a></p>
-										</div>
-									</div>
-								</div>
+							<div id = pages>
+								<a href = index.html></a>
+								<a href = page2.html></a>
 							</div>
 
-							<hr class = hr8 />
-
-							<div class="row post-row" data-toggle="collapse" data-target="#way-to-united" >
-								<div class="col-md-2">
-									<a data-toggle="collapse" data-target="#way-to-united"><img src="2016/08/way-to-united/images/photo1.jpg" class="img-responsive" /> </a>
-								</div>
-								<div class="col-md-10">
-									<div class="post-thumb">
-										<h4><a href = "2016/08/way-to-united">Bipartisanship: The Way to a “United” States of America</a></h4>
-										<ul class="list-inline">
-											<li>August 5th</li>
-											<li>&#8226;</li>
-											<li>by Carlton DiSalvo</a></li>
-											<li>&#8226;</li>
-											<li><a data-toggle = "collapse" data-target = "#way-to-united" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
-										</ul>
-										<div class="collapse" id="way-to-united">
-											<p>Party politics has divided us as a nation. We’ve strayed from the vision of George Washington, who employed a split cabinet so all opinions could be heard. Partisanship has permeated our media, and moderate candidates have become rare. Political parties have their place — allowing like-minded individuals to come together and to voice their opinions — but they have made us lazy and forced us to not even consider the stances of a different party. Big money in politics has made politicians slaves to extreme party ideology and lobbyists. We must focus on bipartisan issues to create a stronger, more “united” America.</p>
-											<p><a href="2016/08/way-to-united">Read Article</a></p>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<hr class = hr8 />
-
-							<div class="row post-row" data-toggle="collapse" data-target="#orlando-shooting" >
-								<div class="col-md-2">
-									<a data-toggle="collapse" data-target="#orlando-shooting"><img src="2016/08/orlando-shooting/images/photo1.jpg" class="img-responsive" /> </a>
-								</div>
-								<div class="col-md-10">
-									<div class="post-thumb">
-										<h4><a href = "2016/08/orlando-shooting">The Orlando Shooting: All Politics Aside</a></h4>
-										<ul class="list-inline">
-											<li>August 5th</li>
-											<li>&#8226;</li>
-											<li>by Irfan Kovankata</a></li>
-											<li>&#8226;</li>
-											<li><a data-toggle = "collapse" data-target = "#orlando-shooting" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
-										</ul>
-										<div class="collapse" id="orlando-shooting">
-											<p>Following the Orlando shooting, I saw mourning, ignorance, and bigotry. I witnessed multiple communities being placed into the “other” category as whole cities split along divisions such as race, religion, skin color, and party affiliation. Despite differences, it was the people who had the biggest excuse to discriminate and demonize that chose to embrace those differences and come together as a community. The entire Orlando community came together to aid the victims. If multiple communities within Orlando who are seemingly so different can come together, why can’t politicians?</p>
-											<p><a href="2016/08/orlando-shooting">Read Article</a></p>
-										</div>
-									</div>
-								</div>
-							</div>
+							<script src = "../js/scroll.js"></script>
 
 							<div class="row">
 								<div class="col-md-12">
