@@ -97,7 +97,7 @@
 		  display: inline;
 		}
 
-		#maincont a {
+		#maincont a.one {
 			background: #B8DBBA;
 			text-decoration: none;
 			color: #4F8C52;
@@ -110,13 +110,20 @@
 			font-weight: bold;
 		}
 
-		#maincont a:hover
+		#maincont a.one:hover
 		{
 			background: #BCE0BF;
 			color: #1E5721;
 			border: 1px solid #1E5721;
 		}
 
+		.twitter {
+			
+		}
+
+		.facebook{
+			float:right;
+		}
 		.parallax-window 
 		{
     		background: url(images/top-stories/trump-big.jpg) center no-repeat;
@@ -135,6 +142,14 @@
     	}
 	</style>
 	<body id = start>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="homepage">
 			<section style="background: #fafafa ">
 				<div class="container">
@@ -181,7 +196,14 @@
 								<p class="main-summary"><strong>We don’t just report on the news; we help you understand it.</strong><br />
 								TldrHub is a news platform where millennials can help each other understand the world. Every day we hear about events and problems, but no one really knows what to do. TldrHub is where the new generation of writers and thinkers come together to debate and share their views on current events. We publish articles from many perspectives, not just one side, and every article includes a “tldr” summary (too long; didn’t read) to make communication even easier.</p>	
 								<br />
-								<h2 class = "style2"><a href = "https://form.jotform.com/61472819206154" target="_blank">Write for us</a></h2>
+								<h2 class = "style2"><a class = one href = "https://form.jotform.com/61472819206154" target="_blank">Write for us</a></h2>
+								<br />
+								<br />
+								<div class = twitter>
+								<a href="https://twitter.com/tldrhub" class="twitter-follow-button" data-show-count="false">Follow @tldrhub</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+								</div class = facebook>
+								<div class="fb-like" data-href="https://www.facebook.com/tldrhub" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -280,6 +302,8 @@
 												<li>August 5, 2016</li>
 												<li>&#8226;</li>
 												<li>by Irfan Kovankaya</a></li>
+												<li>&#8226;</li>
+												<li>in <a href = politics >Politics</a></li>
 												<li>&#8226;</li>
 												<li><a data-toggle = "collapse" data-target = "#white-on-white" style = "color:#68b16c; cursor:pointer">TLDR</a></li>
 											</ul>
