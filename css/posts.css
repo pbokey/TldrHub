@@ -273,4 +273,12 @@
 	margin-top:5px;
 }
 
+.post-list {
+	margin-top: -15px;
+	margin-left: 40px;
+}
 
+.post-list li {
+	padding-left: 10px;
+	font-size: 15px;
+}
