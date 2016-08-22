@@ -282,3 +282,10 @@
 	padding-left: 10px;
 	font-size: 15px;
 }
+
+.citation {
+	font-family: "Work Sans", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	letter-spacing: -.3px;
+	margin: -20px 40px 0 40px;
+}
